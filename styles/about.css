@@ -1,0 +1,81 @@
+div#bs-head-text {
+    width: 720px;
+    height: 160px;
+    padding: 100px;
+    background-color: white;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-left: -360px;
+    margin-top: -80px;
+    text-align: center;
+}
+
+div#bs-guided-tours {
+    height: 50px;
+    padding: 20px;
+    background-color: white;
+    position: absolute;
+    top: 45%;
+    left: 17%;
+    margin-left: -50px;
+    margin-top: -25px;
+    text-align: center;
+}
+div#bs-best-flight-options{
+    height: 50px;
+    padding: 20px;
+    background-color: white;
+    position: absolute;
+    top: 45%;
+    left: 35%;
+    margin-left: -50px;
+    margin-top: -25px;
+    text-align: center;
+}
+
+div#bs-religious-tours{
+    height: 50px;
+    padding: 20px;
+    background-color: white;
+    position: absolute;
+    top: 45%;
+    left: 53%;
+    margin-left: -50px;
+    margin-top: -25px;
+    text-align: center; 
+}
+
+div#bs-medical-insurance{
+    height: 50px;
+    padding: 20px;
+    background-color: white;
+    position: absolute;
+    top: 45%;
+    left: 71%;
+    margin-left: -50px;
+    margin-top: -25px;
+    text-align: center; 
+}
+
+div#bs-head-text h6{
+    color: #ff8c00;
+    font-size: 15px;
+
+}
+div#bs-head-text h2{
+    color: #181e4b;
+    font-size: 40px;
+}
+
+div.best-services-body h4{
+    color: #282c4cf0;
+    line-height: 35px;
+    font-size: 25px;
+}
+
+div.best-services-body h6{
+    color: #727285;
+    line-height: 25px;
+    font-size: 15px;
+}
