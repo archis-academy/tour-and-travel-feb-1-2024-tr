@@ -1,81 +1,84 @@
-div#bs-head-text {
-    width: 720px;
-    height: 160px;
-    padding: 100px;
-    background-color: white;
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    margin-left: -360px;
-    margin-top: -80px;
+/* Kübra PR-3 Best Services  */
+div.PR-3-box {
+    margin-top: 20vh;
+    position: relative;
     text-align: center;
 }
 
-div#bs-guided-tours {
-    height: 50px;
-    padding: 20px;
-    background-color: white;
-    position: absolute;
-    top: 45%;
-    left: 17%;
-    margin-left: -50px;
-    margin-top: -25px;
+div.best-services-content {
+    display: block;
     text-align: center;
+
 }
-div#bs-best-flight-options{
-    height: 50px;
-    padding: 20px;
-    background-color: white;
-    position: absolute;
-    top: 45%;
-    left: 35%;
-    margin-left: -50px;
-    margin-top: -25px;
+
+div.bs-guided-tours {
+    display: inline-block;
     text-align: center;
+    border: 6px solid;
+    border-radius: 24px;
+    border-color: white;
+    width: 150px;
+    height: 200px;
+    margin: 50px;
+    position: relative;
 }
 
-div#bs-religious-tours{
-    height: 50px;
-    padding: 20px;
-    background-color: white;
-    position: absolute;
-    top: 45%;
-    left: 53%;
-    margin-left: -50px;
-    margin-top: -25px;
-    text-align: center; 
+div.bs-best-flight-options {
+    display: inline-block;
+    text-align: center;
+    border: 6px solid;
+    border-radius: 24px;
+    border-color: white;
+    box-shadow: #F2F2F2 1px 1px 16px;
+    width: 150px;
+    height: 200px;
+    margin: 50px;
+    position: relative;
+
 }
 
-div#bs-medical-insurance{
-    height: 50px;
-    padding: 20px;
-    background-color: white;
-    position: absolute;
-    top: 45%;
-    left: 71%;
-    margin-left: -50px;
-    margin-top: -25px;
-    text-align: center; 
+div.bs-religious-tours {
+    display: inline-block;
+    text-align: center;
+    border: 6px solid;
+    border-radius: 24px;
+    border-color: white;
+    width: 150px;
+    height: 200px;
+    margin: 50px;
+    position: relative;
+
 }
 
-div#bs-head-text h6{
+div.bs-medical-insurance {
+    display: inline-block;
+    text-align: center;
+    border: 6px solid;
+    border-radius: 24px;
+    border-color: white;
+    width: 150px;
+    height: 200px;
+    margin: 50px;
+    position: relative;
+
+}
+
+h6.bs-head-text {
     color: #ff8c00;
     font-size: 15px;
+    text-align: center;
+    margin-top: 12px;
 
 }
-div#bs-head-text h2{
+
+h2.bs-head-text {
     color: #181e4b;
     font-size: 40px;
+    text-align: center;
 }
 
-div.best-services-body h4{
-    color: #282c4cf0;
-    line-height: 35px;
-    font-size: 25px;
+img {
+    margin-top: 12px;
 }
 
-div.best-services-body h6{
-    color: #727285;
-    line-height: 25px;
-    font-size: 15px;
-}
+/* Kübra PR-3 Best Services  */
