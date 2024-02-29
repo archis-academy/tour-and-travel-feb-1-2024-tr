@@ -1,74 +1,128 @@
 /* Kübra PR-3 Best Services  */
-div.PR-3-box {
-    margin-top: 20vh;
-    position: relative;
-    text-align: center;
+div.best-services-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+div.best-services-box {
+  margin-top: 20vh;
+  position: relative;
+  text-align: center;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+div.best-services-head {
+  text-align: center;
+}
+h2.bs-head-title {
+  color: #181e4b;
+  font-family: Volkhov;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+h6.bs-head-subtitle {
+  color: #df6951;
+  font-family: Poppins;
+  font-size: 18px;
+  margin-top: 12px;
+  font-weight: 600;
+}
 div.best-services-content {
-    display: block;
-    text-align: center;
-
+  display: flex;
+  text-align: center;
+  max-width: 1440px;
+  margin: auto;
+  justify-content: space-between;
 }
 
-div.bs-guided-tours, div.bs-religious-tours, div.bs-medical-insurance{
-    display: inline-block;
-    text-align: center;
-    border: 6px solid;
-    border-radius: 24px;
-    border-color: white;
-    width: 180px;
-    height: 200px;
-    margin: 50px;
-    position: relative;
+div.bs-gt-rt-mi {
+  display: inline-block;
+  text-align: center;
+  border: 6px solid;
+  border-radius: 24px;
+  border-color: white;
+  margin: 50px;
+  position: relative;
+  color: rgb(61, 67, 110);
+  font-family: Volkhov, serif;
+  font-weight: normal;
+}
+div.bs-gt-rt-mi-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 0;
+}
+.bs-point-gt {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  background-color: #fff1da;
+  position: absolute;
+  z-index: -1;
+  right: 1px;
+  bottom: 1px;
+}
+.bs-point-rest {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  background-color: #fff1da;
+  position: absolute;
+  z-index: -1;
+  right: 1px;
+  bottom: 1px;
 }
 
 div.bs-best-flight-options {
-    display: inline-block;
-    text-align: center;
-    border: 6px solid;
-    border-radius: 24px;
-    border-color: white;
-    box-shadow: #F2F2F2 1px 1px 16px;
-    width: 180px;
-    height: 200px;
-    margin: 50px;
-    position: relative;
-
+  display: inline-block;
+  text-align: center;
+  border: 6px solid;
+  border-radius: 24px;
+  border-color: white;
+  box-shadow: #f2f2f2 1px 1px 16px;
+  margin: 50px;
+  position: relative;
+}
+div.bs-best-flight-options-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 0;
+}
+.bs-point {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  background-color: #fff1da;
+  position: absolute;
+  z-index: -1;
+  left: 1px;
+  top: 1px;
+}
+h4.bs-description-head {
+  color: #1e1d4c;
+  font-size: 20px;
+  font-family: Poppins;
+  font-weight: 600;
+  margin: 5px 0;
 }
 
-h6.bs-head-text {
-    color: #ff8c00;
-    font-size: 15px;
-    text-align: center;
-    margin-top: 12px;
-
+h6.bs-description-text {
+  color: #5e6282;
+  font-size: 15px;
+  font-family: Poppins;
+  font-weight: 500;
+  margin: 5px 0;
 }
-
-h2.bs-head-text {
-    color: #181e4b;
-    font-size: 40px;
-    text-align: center;
-}
-
-h4.bs-guided-tours-text, h4.bs-best-flight-options-text, h4.bs-religious-tours-text, h4.bs-medical-insurance-text {
-    color: rgb(24, 30, 75);
-    font-size: 15px;
-    font-family: Volkhov, serif;
-    font-weight: bold;
-    margin: 5px 0;
-
-}
-
-h6.bs-guided-tours-text, h6.bs-best-flight-options-text, h6.bs-religious-tours-text, h6.bs-medical-insurance-text  {
-    color: rgb(61, 67, 110);
-    font-family: Volkhov, serif;
-    font-weight: normal;
-    margin: 0 20px;
-}
-
-img.bs-guided-tours-img, img.bs-best-flight-options-img, img.bs-religious-tours-img, img.bs-medical-insurance-img {
-    margin-top: 12px;
+div.bs-description-img {
+  margin-top: 12px;
 }
 
 /* Kübra PR-3 Best Services  */
