@@ -1,11 +1,11 @@
 /* Kübra PR-3 Best Services  */
-div.best-services-container {
+.best-services-container {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-div.best-services-box {
+.best-services-box {
   margin-top: 20vh;
   position: relative;
   text-align: center;
@@ -14,7 +14,7 @@ div.best-services-box {
   flex-direction: column;
 }
 
-div.best-services-head {
+.best-services-head {
   text-align: center;
 }
 h2.bs-head-title {
@@ -31,81 +31,50 @@ h6.bs-head-subtitle {
   margin-top: 12px;
   font-weight: 600;
 }
-div.best-services-content {
+.best-services-content {
   display: flex;
   text-align: center;
-  max-width: 1440px;
+  max-width: 1350px;
   margin: auto;
   justify-content: space-between;
+  gap: 80px;
+  padding-top: 50px;
 }
-
-div.bs-gt-rt-mi {
+.best-services-cards {
   display: inline-block;
   text-align: center;
-  border: 6px solid;
-  border-radius: 24px;
-  border-color: white;
-  margin: 50px;
   position: relative;
+  max-width: 325px;
   color: rgb(61, 67, 110);
-  font-family: Volkhov, serif;
+  font-family: "Volkhov", serif;
   font-weight: normal;
 }
-div.bs-gt-rt-mi-img {
-  display: flex;
+.best-services-cards-img {
+  display: inline-block;
   flex-direction: column;
   align-items: center;
   position: relative;
   z-index: 0;
 }
-.bs-point-gt {
-  width: 50px;
-  height: 50px;
-  display: inline-block;
-  background-color: #fff1da;
-  position: absolute;
-  z-index: -1;
-  right: 1px;
-  bottom: 1px;
-}
-.bs-point-rest {
-  width: 50px;
-  height: 50px;
-  display: inline-block;
-  background-color: #fff1da;
-  position: absolute;
-  z-index: -1;
-  right: 1px;
-  bottom: 1px;
-}
-
-div.bs-best-flight-options {
+.bs-best-flight-options {
   display: inline-block;
   text-align: center;
   border: 6px solid;
   border-radius: 24px;
   border-color: white;
-  box-shadow: #f2f2f2 1px 1px 16px;
-  margin: 50px;
+  box-shadow: 0 0 10px 5px #a8a8a81a;
+  background-color: white;
   position: relative;
+  padding: 20px;
 }
-div.bs-best-flight-options-img {
+.bs-best-flight-options-img {
   display: flex;
   flex-direction: column;
   align-items: center;
   position: relative;
   z-index: 0;
 }
-.bs-point {
-  width: 50px;
-  height: 50px;
-  display: inline-block;
-  background-color: #fff1da;
-  position: absolute;
-  z-index: -1;
-  left: 1px;
-  top: 1px;
-}
+
 h4.bs-description-head {
   color: #1e1d4c;
   font-size: 20px;
@@ -121,8 +90,56 @@ h6.bs-description-text {
   font-weight: 500;
   margin: 5px 0;
 }
-div.bs-description-img {
+.bs-description-img {
   margin-top: 12px;
 }
 
+.bs-point-all {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  background-color: #fff1da;
+  position: absolute;
+  z-index: -1;
+}
+
+.bs-point-first {
+  right: -15px;
+  bottom: -5px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.bs-point-second {
+  left: 80px;
+  top: 30px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.bs-point-rest {
+  right: -15px;
+  bottom: -5px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.bs-point-red {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  background-color: #df6951;
+  position: absolute;
+  z-index: -1;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  left: -42px;
+  bottom: -42px;
+}
 /* Kübra PR-3 Best Services  */
