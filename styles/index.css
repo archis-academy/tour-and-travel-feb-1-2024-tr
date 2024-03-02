@@ -37,4 +37,14 @@
   margin-bottom: 25px;
 }
 .hs-button {
+  padding-top: 3px;
+  padding-bottom: 8px;
+  padding-right: 15px;
+  color: #ffffff;
+  font-family: Poppins, sans-serif;
+  font-weight: 600;
+  font-size: 16.72;
+  line-height: 25.07px;
+  border-radius: 10px;
+  background-color: #df6951;
 }
