@@ -1,10 +1,11 @@
 .book-trip-container{
   max-width: 1350px;
-  left: 277px;
   margin: auto;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+  padding: 0 20px;
 }
 
 .book-trip-context{
@@ -14,7 +15,7 @@
 .book-trip-subtitle{
   font-family: "Poppins", sans-serif;
   font-weight: 700;
-  font-size: 18px;
+  font-size: clamp(12px, 4vw, 18px);
   line-height: 27px;
   color: #DF6951;
 }
@@ -22,8 +23,8 @@
 .book-trip-title{
   font-family: "Volkhov", serif;
   font-weight: 700;
-  font-size: 50px;
-  line-height: 64.5px;
+  font-size: clamp(28px, 4vw, 50px);
+  line-height: clamp(35px, 4vw, 65px);
   color: #181E4B;
 }
 
@@ -39,13 +40,13 @@
 }
 
 .book-trip-value-icon{
-  max-width: 47px;
+  width: clamp(40px, 8vw, 50px);
   margin-right: 20px;
 }
 
 .book-trip-value-subtitle,
 .book-trip-value-p{
-  font-size: 16px;
+  font-size: clamp(10px, 4vw, 16px);
   line-height: 19.92px;  
   color: #5E6282;
 }
@@ -63,8 +64,15 @@
 
 .book-trip-img-container{
   max-width: 628px;
+  min-width: 350px;
 }
 
 .book-trip-img{
   width: 100%;
+}
+
+@media (max-width: 1120px) {
+  .book-trip-container{
+    justify-content: center;
+  }
 }
