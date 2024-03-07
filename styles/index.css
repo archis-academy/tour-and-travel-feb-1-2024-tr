@@ -6,7 +6,7 @@
 }
 
 .best-services-box {
-  margin-top: 20vh;
+  margin-top: 5vh;
   position: relative;
   text-align: center;
   flex: 1;
@@ -19,20 +19,21 @@
 }
 h2.bs-head-title {
   color: #181e4b;
-  font-family: Volkhov;
+  font-family: "Volkhov";
   font-size: 50px;
   font-weight: 700;
 }
 
 h6.bs-head-subtitle {
   color: #df6951;
-  font-family: Poppins;
+  font-family: "Poppins";
   font-size: 18px;
   margin-top: 12px;
   font-weight: 600;
 }
 .best-services-content {
   display: flex;
+  flex-wrap: wrap;
   text-align: center;
   max-width: 1350px;
   margin: auto;
@@ -48,50 +49,48 @@ h6.bs-head-subtitle {
   color: rgb(61, 67, 110);
   font-family: "Volkhov", serif;
   font-weight: normal;
+  padding: 20px;
 }
 .best-services-cards-img {
   display: inline-block;
-  flex-direction: column;
-  align-items: center;
   position: relative;
+  margin: 10px 0px;
   z-index: 0;
+  width: 72px;
 }
 .bs-best-flight-options {
-  display: inline-block;
-  text-align: center;
   border: 6px solid;
   border-radius: 24px;
   border-color: white;
-  box-shadow: 0 0 10px 5px #a8a8a81a;
+  box-shadow: 0px 12px 10px 0px #a8a8a81a;
   background-color: white;
-  position: relative;
-  padding: 20px;
 }
 .bs-best-flight-options-img {
-  display: flex;
+  display: inline-block;
   flex-direction: column;
   align-items: center;
   position: relative;
   z-index: 0;
+  margin: 10px 0;
 }
 
 h4.bs-description-head {
   color: #1e1d4c;
   font-size: 20px;
-  font-family: Poppins;
+  font-family: "Poppins";
   font-weight: 600;
-  margin: 5px 0;
+  padding: 10px 0;
 }
 
 h6.bs-description-text {
   color: #5e6282;
   font-size: 15px;
-  font-family: Poppins;
+  font-family: "Poppins";
   font-weight: 500;
-  margin: 5px 0;
+  max-width: 205px;
+  padding: 0 0 20px;
 }
 .bs-description-img {
-  margin-top: 12px;
 }
 
 .bs-point-all {
@@ -106,27 +105,18 @@ h6.bs-description-text {
 .bs-point-first {
   right: -15px;
   bottom: -5px;
-  border-bottom-right-radius: 15px;
-  border-bottom-left-radius: 5px;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
+  border-radius: 12px 5px 20px 5px;
 }
 .bs-point-second {
-  left: 80px;
-  top: 30px;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 5px;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
+  left: -12px;
+  top: 20px;
+  border-radius: 5px 5px 5px 15px;
 }
 
 .bs-point-rest {
   right: -15px;
-  bottom: -5px;
-  border-top-right-radius: 15px;
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
+  bottom: 0px;
+  border-radius: 5px 9px 5px 20px;
 }
 .bs-point-red {
   width: 100px;
@@ -135,11 +125,14 @@ h6.bs-description-text {
   background-color: #df6951;
   position: absolute;
   z-index: -1;
-  border-bottom-right-radius: 30px;
-  border-bottom-left-radius: 30px;
-  border-top-left-radius: 30px;
-  border-top-right-radius: 30px;
+  border-radius: 30px;
   left: -42px;
   bottom: -42px;
+}
+
+@media (max-width: 1231px) {
+  .best-services-content {
+    justify-content: center;
+  }
 }
 /* Kübra PR-3 Best Services  */
