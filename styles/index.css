@@ -1,19 +1,17 @@
 .honeymoon-specials-container {
   display: flex;
   justify-content: center;
+  align-items: center;
+  gap: 120px;
+}
+.hs-image-box {
+  max-width: 655px;
 }
 .hs-image-1 {
-  width: 476.4px;
-  height: 500px;
-  margin-top: 100px;
-  margin-left: 10px;
-  display: inline;
+  width: 100%;
 }
 .hs-text-box {
-  width: 583px;
-  height: 380.42px;
-  margin-left: 75px;
-  margin-top: 250px;
+  max-width: 550px;
 }
 .hs-first-title {
   color: #df6951;
@@ -26,24 +24,25 @@
   color: #181e4b;
   font-family: volkhov, serif;
   margin-bottom: 5px;
-  font-size: 40px;
+  font-size: 50px;
+  font-weight: 700;
   line-height: 71.04px;
 }
 .hs-paragraph {
   color: black;
   font-size: 14px;
+  max-width: 450px;
   font-family: Poppins, sans-serif;
   line-height: 26px;
   margin-bottom: 25px;
 }
 .hs-button {
-  padding-top: 3px;
-  padding-bottom: 8px;
-  padding-right: 15px;
+  padding: 10px 20px;
+  border: none;
   color: #ffffff;
   font-family: Poppins, sans-serif;
   font-weight: 600;
-  font-size: 16.72;
+  font-size: 16px;
   line-height: 25.07px;
   border-radius: 10px;
   background-color: #df6951;
