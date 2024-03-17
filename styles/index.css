@@ -1,0 +1,99 @@
+body {
+    font-family: 'Manrope', sans-serif;
+  }
+  
+  .homepage-footer {
+    background-color: white;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer-main-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .footer-content {
+    flex: 1;
+    margin: 20px;
+  }
+  
+  
+  .logo-img {
+    width: 126.6px;
+    margin-bottom: 20px;
+    color: #181E4B;
+    text-align: left;
+  }
+  
+  .footer-logo {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .footer-logo embed {
+    margin-right: 10px;
+  }
+  
+  ul {
+    padding: 0;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+    text-align: justify;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+    text-align: justify;
+  }
+  
+  .mail-container {
+    display: flex;
+    background-color: #EEEEFF;
+    align-items: center;
+    width: 389px;
+    height: 52px;
+  }
+  
+  .mail {
+    flex: 240;
+    margin-right: 10px;
+    height: 100%;
+    border: none; 
+    background-color: #EEEEFF;
+
+  }
+  
+  .btn {
+    background-color: #DF6951;
+    color:   #FFFFFF;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    flex: 154;
+    height: 52px;
+    }
+    .footer-text{
+        text-align: left;
+      }
+   
+  .sub-text {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #181433;
+  }
+  
+  hr {
+    margin-top: 20px;
+    border: none;
+    border-top: 1px solid #ddd;
+  }
