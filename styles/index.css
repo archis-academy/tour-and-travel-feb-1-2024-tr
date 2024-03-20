@@ -23,6 +23,7 @@ body {
   .footer-content {
     flex: 1;
     margin: 20px;
+    text-align: start;
   }
   
   
@@ -58,18 +59,16 @@ body {
   
   .mail-container {
     display: flex;
-    background-color: #EEEEFF;
     align-items: center;
     width: 389px;
     height: 52px;
   }
   
   .mail {
-    flex: 240;
-    margin-right: 10px;
-    height: 100%;
+    padding: 20px 15px;
     border: none; 
     background-color: #EEEEFF;
+    outline: none;
 
   }
   
@@ -79,8 +78,7 @@ body {
     border: none;
     cursor: pointer;
     border-radius: 10px;
-    flex: 154;
-    height: 52px;
+    padding: 20px 15px;
     }
     .footer-text{
         text-align: left;
