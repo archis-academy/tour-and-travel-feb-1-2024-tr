@@ -4,6 +4,7 @@
   align-items: center;
   gap: clamp(24px, 15vw, 120px);
   flex-wrap: wrap;
+  padding: 0 20px;
 }
 .hs-image-box {
   max-width: 655px;
@@ -18,7 +19,7 @@
   color: #df6951;
   font-family: Poppins, sans-serif;
   margin-bottom: 1px;
-  font-size: clamp(24px, 4vw, 16px);
+  font-size: clamp(10px, 4vw, 16px);
   line-height: 27px;
 }
 .hs-second-title {
@@ -27,14 +28,14 @@
   margin-bottom: 5px;
   font-size: clamp(24px, 4vw, 50px);
   font-weight: 700;
-  line-height: clamp(40px, 4vw, 71px);
+  line-height: clamp(30px, 4vw, 71px);
 }
 .hs-paragraph {
   color: black;
-  font-size: clamp(24px, 4vw, 16px);
+  font-size: clamp(8px, 4vw, 16px);
   max-width: 510px;
   font-family: Poppins, sans-serif;
-  line-height: 26px;
+  line-height: clamp(16px, 3vw, 24px);
   margin-bottom: 25px;
 }
 .hs-button {
