@@ -1,18 +1,21 @@
 .homepage-hero-section{
-  display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  height: 126vh;
   background-image: url(../images/homepage-background.png);
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0 20px;
 }
   
 .homepage-header{
-  width: 1278px;
+  max-width: 1150px;
+  margin: auto;
 }
 
 .homepage-top-nav-bar{
   margin: auto;
-  margin-top: 63px;
+  padding-top: 63px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -20,8 +23,8 @@
 }
 
 .logo{
-  width: 126.6px;
-  height: 64.18px;
+  width: clamp(80px, 8vw, 126.6px);
+  height: 100%;
 }
 
 .homepage-nav-bar{}
@@ -35,14 +38,71 @@
 }
 
 .homepage-nav-element{
+  display: flex;
+  align-items: center;
   font-size: 17px;
   font-weight: 500;
   line-height: 21.5px;
-  color: white
+  color: white;
 }
 
-.sign-in-button{
-  width: 152px;
+.homepage-nav-element:hover{
+  border-bottom: 3px solid #DF6951;
+  margin-bottom: -2px;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: rgba(247, 239, 237, 0.4); 
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
+  z-index: 1;
+  margin-top: 210px; 
+  border-radius: 10px; 
+  padding: 20px;
+}
+
+.dropdown-menu::before {
+  content: '';
+  position: absolute;
+  top: -10.5px;
+  left: 20%;
+  transform: translateX(-50%);
+  border-left: 14px solid transparent;
+  border-right: 14px solid transparent;
+  border-bottom: 11px solid rgba(247, 239, 237, 0.4); 
+}
+
+.dropdown-menu a {
+  color: white;
+  font-family: 'Poppins';
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+  display: block;
+  padding: 4px 0;
+}
+
+.dropdown-menu a:hover {
+  color: #DF6951;
+}
+
+.homepage-nav-element:hover .dropdown-menu {
+  display: block;
+}
+
+.arrown-down{
+  width: 0;
+  height: 0;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-top: 7px solid white;
+  margin-left: 5px;
+}
+
+.sign-in-button,
+.button-search{
+  width: clamp(80px, 8vw, 152px);
   height: 58px;
   font-size: 17px;
   font-weight: 500;
@@ -50,35 +110,129 @@
   border: none;
   border-radius: 10px;
   background-color: #DF6951;
+  box-shadow: 0 2px 4px rgba(223, 105, 81, 0.3);
   color: white;
   cursor: pointer;
 }
 
 
-.homepage-main{}
+.homepage-main{
+  max-width: 1350px;
+  margin: 160px auto;
+  flex: 1;
+}
 
 .main-context-container{
   width: 844px;
+  font-family: 'Poppins';
+  font-style: normal
 }
 
 .main-context{}
 
-.main-context-vector{
-  width: 78.36px;
-  height: 15.67px;
-}
-
 .main-slogan{
   width: 631px;
-  height: 631px;
   font-weight: 700;
-  font-size: clamp(12px, 4vw, 58.51px);;
+  font-size: clamp(12px, 3vw, 50.51px);;
   line-height: 67.91px;
   color: white
 }
 
-.main-searching-tools{}
-.button-search{}
+.main-searching-tools{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  background-color: rgba(247, 239, 237, 0.7);
+  color: white;
+  font-weight: 400;
+  padding: 20px 30px;
+  backdrop-filter: blur(5px);
+  margin: 30px 0;
+}
 
-.main-clients{}
-.user-avatars{}
+.where-to-input{
+  border: none;
+  padding: 10px 0;
+  border-right: 3px solid white;
+  background-color: transparent;
+}
+.where-to-input:focus {
+  outline: none;
+  background-color: transparent;
+  color: white;
+}
+
+.where-to-input::placeholder{
+  color: white;
+}
+
+.travel-type-selection,
+.duration-selection{
+  background-color: transparent;
+  border: none;
+  padding: 10px 40px;
+  color: white;
+}
+
+.travel-type-selection:focus,
+.duration-selection{
+  outline: none;
+}
+
+.duration-selection{
+  border-left:  3px solid white;
+}
+
+
+
+.main-clients{
+  display: flex;
+  font-weight: 500;
+  color: white;
+}
+
+.user-avatar{
+  margin-left: -16px;
+}
+
+.user-plus{
+}
+
+.user-plus {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.user-avatars-info{
+  font-size: 12.54px;
+  line-height: 37.61px;
+  margin-left: 10px;
+}
+
+.scroll-image{
+  margin-left: -200px;
+  margin-top: 30px;
+  width: 320px;
+}
+
+.hamburger-menu{display: none;}
+
+@media (max-width: 700px) {
+  .homepage-nav-bar {
+    display: none;
+  }
+  .hamburger-menu{
+    display: block;
+    cursor: pointer;
+    transition: height 0.5s ease-out; 
+  }
+
+  .main-clients{
+    flex-direction: column;
+  }
+
+
+}
+
