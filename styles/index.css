@@ -133,6 +133,59 @@ h6.bs-description-text {
   }
 }
 /* Kübra PR-3 Best Services  */
+/* Berhan honeymoon specials start */
+.honeymoon-specials-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: clamp(24px, 15vw, 120px);
+  flex-wrap: wrap;
+  padding: 0 20px;
+}
+.hs-image-box {
+  max-width: 655px;
+}
+.hs-image-1 {
+  width: 100%;
+}
+.hs-text-box {
+  max-width: 550px;
+}
+.hs-first-title {
+  color: #df6951;
+  font-family: Poppins, sans-serif;
+  margin-bottom: 1px;
+  font-size: clamp(10px, 4vw, 16px);
+  line-height: 27px;
+}
+.hs-second-title {
+  color: #181e4b;
+  font-family: volkhov, serif;
+  margin-bottom: 5px;
+  font-size: clamp(24px, 4vw, 50px);
+  font-weight: 700;
+  line-height: clamp(30px, 4vw, 71px);
+}
+.hs-paragraph {
+  color: black;
+  font-size: clamp(8px, 4vw, 16px);
+  max-width: 510px;
+  font-family: Poppins, sans-serif;
+  line-height: clamp(16px, 3vw, 24px);
+  margin-bottom: 25px;
+}
+.hs-button {
+  padding: 10px 20px;
+  border: none;
+  color: #ffffff;
+  font-family: Poppins, sans-serif;
+  font-weight: 600;
+  font-size: clamp(12px, 4vw, 16px);
+  line-height: 25.07px;
+  border-radius: 10px;
+  background-color: #df6951;
+}
+/*Berhan honeymoon specials end*/
 
 /*Buse/PR-5 Favorite Resorts START*/
 .book-trip-container {
