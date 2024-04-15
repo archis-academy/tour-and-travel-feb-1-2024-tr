@@ -1,6 +1,6 @@
 .homepage-hero-section{
-  flex-direction: column;
-  height: 126vh;
+  position: relative;
+  height: 100vh;
   background-image: url(../images/homepage-background.png);
   background-position: bottom;
   background-size: cover;
@@ -10,8 +10,9 @@
   
 .homepage-header{
   max-width: 1150px;
-  margin: auto;
+  margin-left: 10%;
 }
+
 
 .homepage-top-nav-bar{
   margin: auto;
@@ -27,8 +28,6 @@
   height: 100%;
 }
 
-.homepage-nav-bar{}
-
 .homepage-nav-elements{
   display: flex;
   text-align: center;
@@ -40,6 +39,7 @@
 .homepage-nav-element{
   display: flex;
   align-items: center;
+  position: relative;
   font-size: 17px;
   font-weight: 500;
   line-height: 21.5px;
@@ -51,18 +51,21 @@
   margin-bottom: -2px;
 }
 
-.dropdown-menu {
+.dropdown-menu{
   display: none;
   position: absolute;
   background-color: rgba(247, 239, 237, 0.4); 
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
   z-index: 1;
-  margin-top: 210px; 
   border-radius: 10px; 
   padding: 20px;
+  width: 200px;
+  top: 30px;
+  left: 0;
+  text-align: start;
 }
 
-.dropdown-menu::before {
+.dropdown-menu::before{
   content: '';
   position: absolute;
   top: -10.5px;
@@ -73,7 +76,8 @@
   border-bottom: 11px solid rgba(247, 239, 237, 0.4); 
 }
 
-.dropdown-menu a {
+.dropdown-menu a,
+.hamburger-dropdown-menu a{
   color: white;
   font-family: 'Poppins';
   font-size: 14px;
@@ -83,12 +87,36 @@
   padding: 4px 0;
 }
 
-.dropdown-menu a:hover {
+.dropdown-menu a:hover,
+.hamburger-dropdown-menu a:hover{
   color: #DF6951;
 }
 
 .homepage-nav-element:hover .dropdown-menu {
   display: block;
+}
+
+.hamburger-menu{display: none;}
+
+.hamburger-dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: rgba(247, 239, 237, 0.4); 
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
+  z-index: 1;
+  border-radius: 10px; 
+  padding: 20px;
+  width: 200px;
+  right: 0;
+  text-align: start;
+}
+
+.hamburger-menu:hover .hamburger-dropdown-menu {
+  display: block;
+}
+
+.dropdown-sign-in-button{
+  padding: 4px 6px;
 }
 
 .arrown-down{
@@ -100,10 +128,17 @@
   margin-left: 5px;
 }
 
-.sign-in-button,
+.sign-in-button{
+  padding: 15px 25px;
+}
+
 .button-search{
-  width: clamp(80px, 8vw, 152px);
-  height: 58px;
+  padding: 15px 45px;
+}
+
+.sign-in-button,
+.button-search,
+.dropdown-sign-in-button{
   font-size: 17px;
   font-weight: 500;
   line-height: 21.5px;
@@ -118,36 +153,40 @@
 
 .homepage-main{
   max-width: 1350px;
-  margin: 160px auto;
+  margin: 80px 10% ;
   flex: 1;
 }
 
 .main-context-container{
-  width: 844px;
+  max-width: 844px;
   font-family: 'Poppins';
   font-style: normal
+}
+
+.main-context-vector{
+  width: clamp(20px, 8vw, 70px);
 }
 
 .main-context{}
 
 .main-slogan{
-  width: 631px;
+  max-width: 631px;
   font-weight: 700;
-  font-size: clamp(12px, 3vw, 50.51px);;
-  line-height: 67.91px;
+  font-size: clamp(35px, 3vw, 50.51px);  
+  line-height: clamp(52px, 3.5vw, 67.91px);
   color: white
 }
 
 .main-searching-tools{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   align-items: center;
   border-radius: 5px;
   background-color: rgba(247, 239, 237, 0.7);
   color: white;
   font-weight: 400;
   padding: 20px 30px;
+  gap: 50px;
   backdrop-filter: blur(5px);
   margin: 30px 0;
 }
@@ -174,6 +213,7 @@
   border: none;
   padding: 10px 40px;
   color: white;
+  -webkit-border-radius: 1px;
 }
 
 .travel-type-selection:focus,
@@ -185,12 +225,15 @@
   border-left:  3px solid white;
 }
 
-
-
 .main-clients{
   display: flex;
   font-weight: 500;
   color: white;
+}
+
+.user-avatars{
+  display: flex;
+  align-items: center;
 }
 
 .user-avatar{
@@ -198,11 +241,11 @@
 }
 
 .user-plus{
-}
-
-.user-plus {
-  margin-left: auto;
-  margin-right: auto;
+  padding: 13px;
+  background-color: #DF6951;
+  border: 2px solid white;
+  border-radius: 20px;
+  margin-left: -16px;
 }
 
 .user-avatars-info{
@@ -212,14 +255,14 @@
 }
 
 .scroll-image{
-  margin-left: -200px;
-  margin-top: 30px;
-  width: 320px;
+  position: absolute;
+  width: 18%;
+  bottom: 0;
+  transform: translateY(55%);
 }
 
-.hamburger-menu{display: none;}
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .homepage-nav-bar {
     display: none;
   }
@@ -229,10 +272,19 @@
     transition: height 0.5s ease-out; 
   }
 
+  .sign-in-button{
+    display: none;
+  }
+
   .main-clients{
     flex-direction: column;
   }
 
+  .duration-selection{
+    border-left: none;
+  }
 
+  .where-to-input{
+    border-right: none;
+  }
 }
-
