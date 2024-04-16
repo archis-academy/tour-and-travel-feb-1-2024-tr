@@ -265,3 +265,31 @@ h6.bs-description-text {
   }
 }
 /*Buse/PR-5 Favorite Resorts*/
+.homepage-Europe-sightseeing-tours{
+  max-width: 1300px;
+  height: auto;
+  margin: 100px auto;
+  flex-wrap: wrap;
+}
+.homepage-Europe-sightseeing-tours{
+  position:relative ;
+}
+es-left-column{
+  background-color: #df6951;
+  border-radius: 10px;
+  padding: 21px 29px;
+  display: inline-block;
+  color: white;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+  margin-top: 35px;
+  gap: 10px;
+}
+.es-promotion{
+font-family: "Poppins",sans-serif;
+color: #df6951;
+font-size: 18px;
+line-height: 27px;
+letter-spacing: 1px;
+}
