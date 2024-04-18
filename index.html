@@ -21,7 +21,13 @@
             <div class="hamburger-dropdown-menu">
               <a href="#">Home</a>
               <a href="#">About</a>
-              <a href="#">Services</a>
+              <a id="services-menu" href="#">Services</a>
+                <div id="services-content" style="display: none;">
+                  <a href="#">Honeymoon Packages</a>
+                  <a href="#">Tours Packages</a>
+                  <a href="#">Musical Events</a>
+                  <a href="#">Build Package</a>
+                </div>
               <a href="#">Upcoming Packages</a>
               <button class="dropdown-sign-in-button">Get in Touch</button>
 
@@ -89,5 +95,17 @@
     
   <!-- Buse/PR-1 Homepage Hero Section -->
   </body>
+  <script>
+    const servicesMenu = document.getElementById("services-menu");
+    const servicesContent = document.getElementById("services-content");
+
+    servicesMenu.addEventListener("click", () => {
+      if (servicesContent.style.display === "none") {
+        servicesContent.style.display = "block";
+      } else {
+        servicesContent.style.display = "none";
+      }
+    });
+  </script>
 
 </html>
