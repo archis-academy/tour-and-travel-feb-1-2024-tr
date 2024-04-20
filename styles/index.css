@@ -287,35 +287,36 @@ h6.bs-description-text {
 /* Emir/PR-6 Liberty Statue Banner START*/
 
 .liberty-banner {
+  display: flex;
   background-image: url("/images/liberty-statue-img.png");
-  width: 1920px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: 75%;
   height: 399px;
+
 }
 
 .slogan-container {
-  position: relative;
   color: #ffffff;
-  width: 634.5px;
-  height: 184.91px;
-  top: 132px;
-  left: 400px;
+  max-width: 1350px;
+  flex: 1;
   text-transform: capitalize;
 }
 
 .slogan-text {
-  width: 559px;
-  height: 130px;
-  line-height: 67px;
+  margin-left: 20px;
   font-size: 50px;
   font-weight: 700;
   font-family: "Volkhov", serif;
 }
 
-.slogan-container img {
-  position: relative;
-  width: 312px;
-  height: 41px;
-  left: 325px;
+.text-line {
+  max-width: 675px;
+  text-align: end;
+
 }
 
 
