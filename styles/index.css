@@ -291,3 +291,16 @@ h6.bs-description-text {
   gap: 50px;
   margin-left: 50px;
 }
+.pr9-first-images {
+  max-width: 395px;
+}
+.swit-days-area {
+  display: inline;
+}
+.first-days {
+  display: inline;
+}
+.money-one-extra {
+  text-decoration: line-through;
+  color: #7d7d7d;
+}
