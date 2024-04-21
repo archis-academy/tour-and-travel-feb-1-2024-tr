@@ -1,3 +1,129 @@
+/* Emir/ PR-13 About Page Hero START */
+
+.hero-container {
+    position: relative;
+    background-image: url(/images/about/about-header-img.png);
+    width: 100%;
+    height: 766px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 20%;
+
+}
+
+.hero {
+    display: flex;
+    padding-top: 50px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.nav-bar {
+    display: flex;
+    color: white;
+    font-family: "Circular Std Book";
+    column-gap: 30px;
+
+}
+
+.nav-bar a {
+    transition-duration: 0.4s;
+    transition-property: all;
+}
+
+.nav-bar a:hover {
+    transform: translateY(-3px);
+
+}
+
+.nav-about {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-btn button {
+    background-color: #DF6951;
+    color: white;
+    width: 152px;
+    height: 58px;
+    border: 1px solid #DF6951;
+    border-radius: 10px;
+    font-family: "Circular Std Book";
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 21.5px;
+    transition-duration: 0.4s;
+    transition-property: all;
+}
+
+.contact-btn button:hover {
+    background-color: rgba(190, 190, 190, 0.671);
+    color: #DF6951;
+    font-weight: 500;
+    cursor: pointer;
+    transform: translateY(-10px);
+
+
+
+}
+
+.about-us {
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    max-width: 487px;
+    max-height: 224px;
+}
+
+.about-us h6 {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+}
+
+.about-us h1 {
+    color: white;
+    font-family: "Yesteryear", cursive;
+    font-weight: 400;
+    font-size: 157.43px;
+
+}
+
+@media (max-width:800px) {
+
+    .about-us {
+        top: 40%;
+        left: 26%;
+    }
+
+    .about-us h1 {
+        font-size: 80px;
+    }
+
+    .about-us h6 {
+        font-size: 12px;
+    }
+
+    .nav-bar {
+        column-gap: 15px;
+    }
+
+    .contact-btn button {
+        width: 76px;
+        height: 58px;
+    }
+}
+
+
+/* Emir/ PR-13 About Page Hero END */
+
+
 /* Emir/ PR-12 About Promotion START */
 .promotion-container {
 
