@@ -266,8 +266,14 @@ h6.bs-description-text {
 }
 /*Buse/PR-5 Favorite Resorts*/
 /*Berhan Trending Tour Packages start*/
+.pr9-container {
+  margin-top: 30px;
+}
 .pr9-first-titles {
+  max-width: 300px;
   text-align: center;
+  margin-left: 40%;
+  margin-bottom: 30px;
 }
 .little-title {
   font-family: "poppins", sans-serif;
@@ -276,11 +282,12 @@ h6.bs-description-text {
 .big-title {
   font-family: "Volkhov", serif;
   color: #181e4b;
-  font-size: 30pxpx;
-  line-height: 71px;
+  font-size: 30px;
+  line-height: 50px;
 }
 .main-contents-parent {
   display: flex;
   justify-content: center;
   gap: 50px;
+  margin-left: 50px;
 }
