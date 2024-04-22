@@ -21,8 +21,10 @@
             <div class="hamburger-dropdown-menu">
               <a href="#">Home</a>
               <a href="#">About</a>
-              <a id="services-menu" href="#">Services</a>
-                <div id="services-content" style="display: none;">
+              <a id="services-menu" href="#" style="  color: #DF6951;
+              ">Services
+              </a>
+                <div id="services-content" class="services-content-class" style="display: none;">
                   <a href="#">Honeymoon Packages</a>
                   <a href="#">Tours Packages</a>
                   <a href="#">Musical Events</a>
@@ -61,7 +63,7 @@
             <h1 class="main-slogan">No matter where you’re going to, we’ll take you there</h1>
 
             <div class="main-searching-tools">
-              <input class="where-to-input" placeholder="Where to?"></input>
+              <input class="where-to-input" placeholder="Where to?"/>
               <select class="travel-type-selection">
                 <option value="0">Travel Type</option>
               </select>
@@ -92,20 +94,7 @@
       <img class="scroll-image" src="images/scroll.png">
 
     </div>
-    
   <!-- Buse/PR-1 Homepage Hero Section -->
+  <script src="app.js"></script>
   </body>
-  <script>
-    const servicesMenu = document.getElementById("services-menu");
-    const servicesContent = document.getElementById("services-content");
-
-    servicesMenu.addEventListener("click", () => {
-      if (servicesContent.style.display === "none") {
-        servicesContent.style.display = "block";
-      } else {
-        servicesContent.style.display = "none";
-      }
-    });
-  </script>
-
 </html>

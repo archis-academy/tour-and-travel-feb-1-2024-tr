@@ -118,11 +118,21 @@
   display: block;
 }
 
+.services-content-class a{
+  margin-left: 10px;
+  color: white;
+  font-size: 12px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
 .dropdown-sign-in-button{
   padding: 4px 6px;
 }
 
-.arrown-down{
+
+.arrown-down,
+.services-arrown-down{
   width: 0;
   height: 0;
   border-left: 7px solid transparent;
@@ -153,10 +163,9 @@
   cursor: pointer;
 }
 
-
 .homepage-main{
   max-width: 1350px;
-  margin: 140px auto;
+  margin: 17px auto;
 }
 
 .main-context-container{
@@ -193,6 +202,7 @@
 
 .where-to-input{
   border: none;
+  font-size: 20px;
   padding: 10px 0;
   border-right: 3px solid white;
   background-color: transparent;
@@ -211,6 +221,7 @@
 .duration-selection{
   background-color: transparent;
   border: none;
+  font-size: 20px;
   padding: 10px 0px;
   color: white;
   -webkit-border-radius: 1px;
@@ -256,7 +267,7 @@
 
 .scroll-image{
   position: absolute;
-  width: 18%;
+  width: 392px;
   bottom: 0;
   transform: translateY(55%);
 }
@@ -304,5 +315,9 @@
   
   .where-to-input{
     width: 100%;
+  }
+
+  .scroll-image{
+    width: 196px;
   }
 }
