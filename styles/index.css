@@ -186,6 +186,7 @@
 .best-services-head {
   text-align: center;
 }
+
 h2.bs-head-title {
   color: #181e4b;
   font-family: "Volkhov";
@@ -200,6 +201,7 @@ h6.bs-head-subtitle {
   margin-top: 12px;
   font-weight: 600;
 }
+
 .best-services-content {
   display: flex;
   flex-wrap: wrap;
@@ -210,6 +212,7 @@ h6.bs-head-subtitle {
   gap: 80px;
   padding-top: 50px;
 }
+
 .best-services-cards {
   display: inline-block;
   text-align: center;
@@ -220,6 +223,7 @@ h6.bs-head-subtitle {
   font-weight: normal;
   padding: 20px;
 }
+
 .best-services-cards-img {
   display: inline-block;
   position: relative;
@@ -227,6 +231,7 @@ h6.bs-head-subtitle {
   z-index: 0;
   width: 72px;
 }
+
 .bs-best-flight-options {
   border: 6px solid;
   border-radius: 24px;
@@ -234,6 +239,7 @@ h6.bs-head-subtitle {
   box-shadow: 0px 12px 10px 0px #a8a8a81a;
   background-color: white;
 }
+
 .bs-best-flight-options-img {
   display: inline-block;
   flex-direction: column;
@@ -259,8 +265,8 @@ h6.bs-description-text {
   max-width: 205px;
   padding: 0 0 20px;
 }
-.bs-description-img {
-}
+
+.bs-description-img {}
 
 .bs-point-all {
   width: 50px;
@@ -276,6 +282,7 @@ h6.bs-description-text {
   bottom: -5px;
   border-radius: 12px 5px 20px 5px;
 }
+
 .bs-point-second {
   left: -12px;
   top: 20px;
@@ -287,6 +294,7 @@ h6.bs-description-text {
   bottom: 0px;
   border-radius: 5px 9px 5px 20px;
 }
+
 .bs-point-red {
   width: 100px;
   height: 100px;
@@ -304,6 +312,7 @@ h6.bs-description-text {
     justify-content: center;
   }
 }
+
 /* Kübra PR-3 Best Services  */
 /* Berhan honeymoon specials start */
 .honeymoon-specials-container {
@@ -314,15 +323,19 @@ h6.bs-description-text {
   flex-wrap: wrap;
   padding: 0 20px;
 }
+
 .hs-image-box {
   max-width: 655px;
 }
+
 .hs-image-1 {
   width: 100%;
 }
+
 .hs-text-box {
   max-width: 550px;
 }
+
 .hs-first-title {
   color: #df6951;
   font-family: Poppins, sans-serif;
@@ -330,6 +343,7 @@ h6.bs-description-text {
   font-size: clamp(10px, 4vw, 16px);
   line-height: 27px;
 }
+
 .hs-second-title {
   color: #181e4b;
   font-family: volkhov, serif;
@@ -338,6 +352,7 @@ h6.bs-description-text {
   font-weight: 700;
   line-height: clamp(30px, 4vw, 71px);
 }
+
 .hs-paragraph {
   color: black;
   font-size: clamp(8px, 4vw, 16px);
@@ -346,6 +361,7 @@ h6.bs-description-text {
   line-height: clamp(16px, 3vw, 24px);
   margin-bottom: 25px;
 }
+
 .hs-button {
   padding: 10px 20px;
   border: none;
@@ -357,6 +373,7 @@ h6.bs-description-text {
   border-radius: 10px;
   background-color: #df6951;
 }
+
 /*Berhan honeymoon specials end*/
 
 /*Buse/PR-5 Favorite Resorts START*/
@@ -436,4 +453,43 @@ h6.bs-description-text {
     justify-content: center;
   }
 }
+
 /*Buse/PR-5 Favorite Resorts*/
+
+/* Emir/PR-6 Liberty Statue Banner START*/
+
+.liberty-banner {
+  display: flex;
+  background-image: url("/images/liberty-statue-img.png");
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: 75%;
+  height: 399px;
+
+}
+
+.slogan-container {
+  color: #ffffff;
+  max-width: 1350px;
+  flex: 1;
+  text-transform: capitalize;
+}
+
+.slogan-text {
+  margin-left: 20px;
+  font-size: 50px;
+  font-weight: 700;
+  font-family: "Volkhov", serif;
+}
+
+.text-line {
+  max-width: 675px;
+  text-align: end;
+
+}
+
+
+/* Emir/PR-6 Liberty Statue Banner END*/

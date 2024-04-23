@@ -1,270 +1,245 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tour and Travel</title>
-    <link rel="stylesheet" href="styles/index.css" />
-    <link rel="stylesheet" href="styles/shared.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <!-- Buse/PR-1 Homepage Hero Section START-->
-    <div class="homepage-hero-section">
-      <header class="homepage-header">
-        <nav class="homepage-top-nav-bar">
-          <img class="logo" src="images/logo.png" alt="Company Logo" />
-          <div class="hamburger-menu">
-            <img src="images/hamburger-icon.png" />
-            <div class="hamburger-dropdown-menu">
-              <a href="#">Home</a>
-              <a href="#">About</a>
-              <a id="services-menu" href="#" style="color: #df6951"
-                >Services
-              </a>
-              <div
-                id="services-content"
-                class="services-content-class"
-                style="display: none"
-              >
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tour and Travel</title>
+  <link rel="stylesheet" href="styles/index.css" />
+  <link rel="stylesheet" href="styles/shared.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <!-- Buse/PR-1 Homepage Hero Section START-->
+  <div class="homepage-hero-section">
+    <header class="homepage-header">
+      <nav class="homepage-top-nav-bar">
+        <img class="logo" src="images/logo.png" alt="Company Logo" />
+        <div class="hamburger-menu">
+          <img src="images/hamburger-icon.png" />
+          <div class="hamburger-dropdown-menu">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a id="services-menu" href="#" style="color: #df6951">Services
+            </a>
+            <div id="services-content" class="services-content-class" style="display: none">
+              <a href="#">Honeymoon Packages</a>
+              <a href="#">Tours Packages</a>
+              <a href="#">Musical Events</a>
+              <a href="#">Build Package</a>
+            </div>
+            <a href="#">Upcoming Packages</a>
+            <button class="dropdown-sign-in-button">Get in Touch</button>
+          </div>
+        </div>
+        <div class="homepage-nav-bar">
+          <ul class="homepage-nav-elements">
+            <li class="homepage-nav-element"><a href="#">Home</a></li>
+            <li class="homepage-nav-element"><a href="#">About</a></li>
+            <li class="homepage-nav-element">
+              <a href="#">Services</a>
+              <div class="arrown-down"></div>
+              <div class="dropdown-menu">
                 <a href="#">Honeymoon Packages</a>
                 <a href="#">Tours Packages</a>
                 <a href="#">Musical Events</a>
                 <a href="#">Build Package</a>
               </div>
+            </li>
+            <li class="homepage-nav-element">
               <a href="#">Upcoming Packages</a>
-              <button class="dropdown-sign-in-button">Get in Touch</button>
-            </div>
-          </div>
-          <div class="homepage-nav-bar">
-            <ul class="homepage-nav-elements">
-              <li class="homepage-nav-element"><a href="#">Home</a></li>
-              <li class="homepage-nav-element"><a href="#">About</a></li>
-              <li class="homepage-nav-element">
-                <a href="#">Services</a>
-                <div class="arrown-down"></div>
-                <div class="dropdown-menu">
-                  <a href="#">Honeymoon Packages</a>
-                  <a href="#">Tours Packages</a>
-                  <a href="#">Musical Events</a>
-                  <a href="#">Build Package</a>
-                </div>
-              </li>
-              <li class="homepage-nav-element">
-                <a href="#">Upcoming Packages</a>
-              </li>
-            </ul>
-          </div>
-          <button class="sign-in-button">Get in Touch</button>
-        </nav>
-      </header>
+            </li>
+          </ul>
+        </div>
+        <button class="sign-in-button">Get in Touch</button>
+      </nav>
+    </header>
 
-      <main class="homepage-main">
-        <div class="main-context-container">
-          <div class="main-context">
-            <img class="main-context-vector" src="images/Vector-1.png" />
-            <h1 class="main-slogan">
-              No matter where you’re going to, we’ll take you there
-            </h1>
+    <main class="homepage-main">
+      <div class="main-context-container">
+        <div class="main-context">
+          <img class="main-context-vector" src="images/Vector-1.png" />
+          <h1 class="main-slogan">
+            No matter where you’re going to, we’ll take you there
+          </h1>
 
-            <div class="main-searching-tools">
-              <input class="where-to-input" placeholder="Where to?" />
-              <select class="travel-type-selection">
-                <option value="0">Travel Type</option>
-              </select>
-              <select class="duration-selection">
-                <option value="0">Duration</option>
-              </select>
-              <button class="button-search">Submit</button>
-            </div>
+          <div class="main-searching-tools">
+            <input class="where-to-input" placeholder="Where to?" />
+            <select class="travel-type-selection">
+              <option value="0">Travel Type</option>
+            </select>
+            <select class="duration-selection">
+              <option value="0">Duration</option>
+            </select>
+            <button class="button-search">Submit</button>
+          </div>
+        </div>
+
+        <div class="main-clients">
+          <div class="user-avatars">
+            <img src="images/user-avatar1.png" alt="User Avatar" />
+            <img class="user-avatar" src="images/user-avatar2.png" alt="User Avatar" />
+            <img class="user-avatar" src="images/user-avatar3.png" alt="User Avatar" />
+            <img class="user-avatar" src="images/user-avatar4.png" alt="User Avatar" />
+            <img class="user-avatar" src="images/user-avatar5.png" alt="User Avatar" />
+            <img class="user-avatar" src="images/user-avatar6.png" alt="User Avatar" />
+            <img class="user-plus" src="images/plus.png" />
+          </div>
+          <p class="user-avatars-info">
+            2,500 people booked Tommorowland Event in last 24 hours
+          </p>
+        </div>
+      </div>
+    </main>
+    <img class="scroll-image" src="images/scroll.png" />
+  </div>
+  <!-- Buse/PR-1 Homepage Hero Section -->
+
+  <!-- Kübra/PR-3 Homepage Best Service -->
+  <div class="best-services-container">
+    <div class="best-services-box">
+      <div class="best-services-head">
+        <h6 class="bs-head-subtitle">CATEGORY</h6>
+        <h2 class="bs-head-title">We Offer Best Services</h2>
+      </div>
+
+      <div class="best-services-content">
+        <div class="best-services-cards">
+          <div class="best-services-cards-img">
+            <img class="bs-description-img" src="images/homepage-services-human.png" alt="Guided Tours" />
+            <span class="bs-point-all bs-point-first"></span>
+          </div>
+          <h4 class="bs-description-head">Guided Tours</h4>
+          <h6 class="bs-description-text">
+            Sunt qui repellat saepe quo velit aperiam id aliquam placeat
+          </h6>
+        </div>
+
+        <div class="best-services-cards bs-best-flight-options">
+          <div class="bs-best-flight-options-img">
+            <img class="bs-description-img" src="images/homepage-services-plane.png" alt="Best Flight Options" />
+            <span class="bs-point-all bs-point-second"></span>
           </div>
 
-          <div class="main-clients">
-            <div class="user-avatars">
-              <img src="images/user-avatar1.png" alt="User Avatar" />
-              <img
-                class="user-avatar"
-                src="images/user-avatar2.png"
-                alt="User Avatar"
-              />
-              <img
-                class="user-avatar"
-                src="images/user-avatar3.png"
-                alt="User Avatar"
-              />
-              <img
-                class="user-avatar"
-                src="images/user-avatar4.png"
-                alt="User Avatar"
-              />
-              <img
-                class="user-avatar"
-                src="images/user-avatar5.png"
-                alt="User Avatar"
-              />
-              <img
-                class="user-avatar"
-                src="images/user-avatar6.png"
-                alt="User Avatar"
-              />
-              <img class="user-plus" src="images/plus.png" />
-            </div>
-            <p class="user-avatars-info">
-              2,500 people booked Tommorowland Event in last 24 hours
+          <h4 class="bs-description-head">Best Flight Options</h4>
+          <h6 class="bs-description-text">
+            Sunt qui repellat saepe quo velit aperiam id aliquam placeat
+          </h6>
+          <span class="bs-point-red"></span>
+        </div>
+
+        <div class="best-services-cards">
+          <div class="best-services-cards-img">
+            <img class="bs-description-img" src="images/homepage-services-hands.png" alt="Religious Tours" />
+            <span class="bs-point-all bs-point-rest"></span>
+          </div>
+          <h4 class="bs-description-head">Religious Tours</h4>
+          <h6 class="bs-description-text">
+            Sunt qui repellat saepe quo velit aperiam id aliquam placeat
+          </h6>
+        </div>
+
+        <div class="best-services-cards">
+          <div class="best-services-cards-img">
+            <img class="bs-description-img" src="images/homepage-services-medical.png" alt="Medical İnsurance" />
+            <span class="bs-point-all bs-point-rest"></span>
+          </div>
+          <h4 class="bs-description-head">Medical Insurance</h4>
+          <h6 class="bs-description-text">
+            Sunt qui repellat saepe quo velit aperiam id aliquam placeat
+          </h6>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- kübra/PR-3- homepage-best-service -->
+  <!-- berhan honeymoon hompage specials start -->
+  <div class="honeymoon-specials-container">
+    <div class="hs-image-box">
+      <img class="hs-image-1" src="images/Illustration.png" alt="image1" />
+    </div>
+    <div class="hs-text-box">
+      <h6 class="hs-first-title">HONEYMOON SPECIALS</h6>
+      <h2 class="hs-second-title">Our Romantic Tropical Destinations</h2>
+      <p class="hs-paragraph">
+        Et labore harum non nobis ipsum eum molestias mollitia et corporis
+        praesentium a laudantium internos. Non quis eius quo eligendi corrupti
+        et fugiat nulla qui soluta recusandae in maxime quasi aut ducimus
+        illum aut optio quibusdam!
+      </p>
+      <button class="hs-button">View Packages</button>
+    </div>
+  </div>
+  <!-- berhan honeymoon hompage specials end -->
+
+  <!-- Buse/PR-5 Favorite Resorts START-->
+  <section class="book-trip-container">
+    <div class="book-trip-context">
+      <div class="book-trip-heading">
+        <h6 class="book-trip-subtitle">Fast & Easy</h6>
+        <h2 class="book-trip-title">Get Your Favourite Resort Bookings</h2>
+      </div>
+
+      <div class="book-trip-values">
+        <div class="book-trip-value">
+          <img class="book-trip-value-icon" src="images/value-image-1.png" />
+          <div class="book-trip-value-titles">
+            <h6 class="book-trip-value-subtitle">Choose Destination</h6>
+            <p class="book-trip-value-p">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna,
+              tortor tempus.
             </p>
           </div>
         </div>
-      </main>
-      <img class="scroll-image" src="images/scroll.png" />
-    </div>
-    <!-- Buse/PR-1 Homepage Hero Section -->
 
-    <!-- Kübra/PR-3 Homepage Best Service -->
-    <div class="best-services-container">
-      <div class="best-services-box">
-        <div class="best-services-head">
-          <h6 class="bs-head-subtitle">CATEGORY</h6>
-          <h2 class="bs-head-title">We Offer Best Services</h2>
+        <div class="book-trip-value">
+          <img class="book-trip-value-icon" src="images/value-image-3.png" />
+          <div class="book-trip-value-titles">
+            <h6 class="book-trip-value-subtitle">Check Availability</h6>
+            <p class="book-trip-value-p">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna,
+              tortor tempus.
+            </p>
+          </div>
         </div>
 
-        <div class="best-services-content">
-          <div class="best-services-cards">
-            <div class="best-services-cards-img">
-              <img
-                class="bs-description-img"
-                src="images/homepage-services-human.png"
-                alt="Guided Tours"
-              />
-              <span class="bs-point-all bs-point-first"></span>
-            </div>
-            <h4 class="bs-description-head">Guided Tours</h4>
-            <h6 class="bs-description-text">
-              Sunt qui repellat saepe quo velit aperiam id aliquam placeat
-            </h6>
-          </div>
-
-          <div class="best-services-cards bs-best-flight-options">
-            <div class="bs-best-flight-options-img">
-              <img
-                class="bs-description-img"
-                src="images/homepage-services-plane.png"
-                alt="Best Flight Options"
-              />
-              <span class="bs-point-all bs-point-second"></span>
-            </div>
-
-            <h4 class="bs-description-head">Best Flight Options</h4>
-            <h6 class="bs-description-text">
-              Sunt qui repellat saepe quo velit aperiam id aliquam placeat
-            </h6>
-            <span class="bs-point-red"></span>
-          </div>
-
-          <div class="best-services-cards">
-            <div class="best-services-cards-img">
-              <img
-                class="bs-description-img"
-                src="images/homepage-services-hands.png"
-                alt="Religious Tours"
-              />
-              <span class="bs-point-all bs-point-rest"></span>
-            </div>
-            <h4 class="bs-description-head">Religious Tours</h4>
-            <h6 class="bs-description-text">
-              Sunt qui repellat saepe quo velit aperiam id aliquam placeat
-            </h6>
-          </div>
-
-          <div class="best-services-cards">
-            <div class="best-services-cards-img">
-              <img
-                class="bs-description-img"
-                src="images/homepage-services-medical.png"
-                alt="Medical İnsurance"
-              />
-              <span class="bs-point-all bs-point-rest"></span>
-            </div>
-            <h4 class="bs-description-head">Medical Insurance</h4>
-            <h6 class="bs-description-text">
-              Sunt qui repellat saepe quo velit aperiam id aliquam placeat
-            </h6>
+        <div class="book-trip-value">
+          <img class="book-trip-value-icon" src="images/value-image-2.png" />
+          <div class="book-trip-value-titles">
+            <h6 class="book-trip-value-subtitle">Let’s Go</h6>
+            <p class="book-trip-value-p">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna,
+              tortor tempus.
+            </p>
           </div>
         </div>
       </div>
     </div>
-    <!-- kübra/PR-3- homepage-best-service -->
-    <!-- berhan honeymoon hompage specials start -->
-    <div class="honeymoon-specials-container">
-      <div class="hs-image-box">
-        <img class="hs-image-1" src="images/Illustration.png" alt="image1" />
-      </div>
-      <div class="hs-text-box">
-        <h6 class="hs-first-title">HONEYMOON SPECIALS</h6>
-        <h2 class="hs-second-title">Our Romantic Tropical Destinations</h2>
-        <p class="hs-paragraph">
-          Et labore harum non nobis ipsum eum molestias mollitia et corporis
-          praesentium a laudantium internos. Non quis eius quo eligendi corrupti
-          et fugiat nulla qui soluta recusandae in maxime quasi aut ducimus
-          illum aut optio quibusdam!
-        </p>
-        <button class="hs-button">View Packages</button>
-      </div>
+    <div class="book-trip-img-container">
+      <img class="book-trip-img" src="images/book-trip-img.png" />
     </div>
-    <!-- berhan honeymoon hompage specials end -->
-
-    <!-- Buse/PR-5 Favorite Resorts START-->
-    <section class="book-trip-container">
-      <div class="book-trip-context">
-        <div class="book-trip-heading">
-          <h6 class="book-trip-subtitle">Fast & Easy</h6>
-          <h2 class="book-trip-title">Get Your Favourite Resort Bookings</h2>
-        </div>
-
-        <div class="book-trip-values">
-          <div class="book-trip-value">
-            <img class="book-trip-value-icon" src="images/value-image-1.png" />
-            <div class="book-trip-value-titles">
-              <h6 class="book-trip-value-subtitle">Choose Destination</h6>
-              <p class="book-trip-value-p">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna,
-                tortor tempus.
-              </p>
-            </div>
-          </div>
-
-          <div class="book-trip-value">
-            <img class="book-trip-value-icon" src="images/value-image-3.png" />
-            <div class="book-trip-value-titles">
-              <h6 class="book-trip-value-subtitle">Check Availability</h6>
-              <p class="book-trip-value-p">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna,
-                tortor tempus.
-              </p>
-            </div>
-          </div>
-
-          <div class="book-trip-value">
-            <img class="book-trip-value-icon" src="images/value-image-2.png" />
-            <div class="book-trip-value-titles">
-              <h6 class="book-trip-value-subtitle">Let’s Go</h6>
-              <p class="book-trip-value-p">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna,
-                tortor tempus.
-              </p>
-            </div>
-          </div>
-        </div>
+  </section>
+  <!-- Buse/PR-5 Favorite Resorts -->
+  <!-- Emir/PR-6 Homepage Liberty Banner start -->
+  <section class="liberty-banner">
+    <div class="slogan-container">
+      <h6 class="slogan-text">
+        Let's make your <br>
+        next holiday amazing
+      </h6>
+      <div class="text-line">
+        <img src="/images/liberty-statue-Line.png">
       </div>
-      <div class="book-trip-img-container">
-        <img class="book-trip-img" src="images/book-trip-img.png" />
-      </div>
-    </section>
-    <!-- Buse/PR-5 Favorite Resorts -->
-    <script src="app.js"></script>
-  </body>
+
+    </div>
+  </section>
+  <!-- Emir/PR-6 Homepage Liberty Banner end -->
+  <script src="app.js"></script>
+</body>
+
 </html>
