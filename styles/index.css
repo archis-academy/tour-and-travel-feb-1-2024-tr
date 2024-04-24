@@ -5,7 +5,6 @@ body {
   .homepage-footer {
     background-color: white;
     padding: 50px 0;
-    text-align: center;
   }
   
   .footer-container {
@@ -28,8 +27,7 @@ body {
   
   
   .logo-img {
-    width: 126.6px;
-    margin-bottom: 20px;
+    max-width: 126.6px;
     color: #181E4B;
     text-align: left;
   }
@@ -49,7 +47,6 @@ body {
   
   h2 {
     margin-bottom: 10px;
-    text-align: justify;
   }
   
   ul li {
@@ -60,8 +57,7 @@ body {
   .mail-container {
     display: flex;
     align-items: center;
-    height: 52px;
-    width: 390px;
+    max-width: 390px;
   }
   
   .footer-email-input {
@@ -78,8 +74,7 @@ body {
     border: none;
     cursor: pointer;
     border-radius: 10px;
-    padding: 15px 15px;
-    width: 150px;
+    padding: 15px 30px;
     }
     .footer-text{
       text-align:left;
@@ -99,7 +94,6 @@ body {
         font-weight: 500;
         line-height: 26px;
         letter-spacing: -0.02em;
-        padding-right: 40px;
         margin-top: 20px;
         color: #181433;
         opacity: 50%;
@@ -109,6 +103,7 @@ body {
     margin-top: 20px;
     font-size: 14px;
     color: #181433;
+    text-align: center;
   }
   
   hr {
@@ -132,27 +127,26 @@ body {
 }
   @media screen and (max-width: 520px) {
     .footer-main-box {
-      flex-direction: column;
       align-items: center;
+      flex-direction: column; /* Değiştirilebilir */
     }
     .footer-content{
-      display: none;
+      text-align: center;
     }
+    .mail-container{
+      flex-wrap: wrap;
+    }
+    .subscribe-btn,
+    .footer-email-input{
+      width: 100%;
+    }
+
     .footer-main-content,
     .mail-content{
       display: flex;
       flex-direction: column;
-      align-items: center;
     }
     .footer-text{
       text-align: center;
     }
-    .mail-container{
-      justify-content: center;
-    }
-
-
-    /* .footer-text{
-      width: 80%;
-    } */
- }
+  }
