@@ -1,0 +1,15 @@
+.ab-container{
+    max-width: 1350;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 0 auto;
+    padding: 90px 0;
+    position: relative;
+}
+.ab-text-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 32px;
+}
