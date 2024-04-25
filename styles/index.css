@@ -266,96 +266,29 @@ h6.bs-description-text {
 }
 /*Buse/PR-5 Favorite Resorts*/
 /*Berhan Trending Tour Packages start*/
-.pr9-container {
-  margin-top: 30px;
-}
-.pr9-first-titles {
-  max-width: 300px;
+.trending-tour-title-area {
   text-align: center;
-  margin-left: 40%;
   margin-bottom: 30px;
 }
-.little-title {
+.tt-little-title {
   font-family: "poppins", sans-serif;
+  font-size: 18px;
+  line-height: 27px;
   color: #df6951;
+  font-weight: 700;
 }
-.big-title {
-  font-family: "Volkhov", serif;
+.tt-big-title {
+  font-family: "volkhov", serif;
+  line-height: 70px;
+  font-size: 50px;
+  font-weight: 700;
+  max-width: 500px;
+  margin-left: 500px;
   color: #181e4b;
-  font-size: 30px;
-  line-height: 50px;
 }
-.main-contents-parent {
-  display: flex;
+.main-contents-area {
   justify-content: center;
-  gap: 50px;
+  display: flex;
   margin-left: 50px;
-}
-.pr9-first-images {
-  max-width: 395px;
-}
-.swit-days-area {
-  display: inline;
-}
-.first-days {
-  display: inline;
-}
-.pr-9-first-paragraph {
-  font-family: "poppins", sans-serif;
-  color: #7d7d7d;
-  font-weight: 400px;
-  font-size: 16px;
-  line-height: 25px;
-}
-.pr-9-second-paragraph {
-  font-family: "poppins", sans-serif;
-  color: #7d7d7d;
-  font-weight: 400px;
-  font-size: 16px;
-  line-height: 25px;
-}
-.switzerland-title {
-  font-family: "poppins", sans-serif;
-  font-weight: 700px;
-  font-size: 29px;
-  line-height: 44px;
-  color: #2f2f2f;
-}
-.pr9-europe {
-  font-family: "poppins", sans-serif;
-  font-weight: 400px;
-  font-size: 16px;
-  line-height: 25px;
-  color: #7d7d7d;
-}
-.swit-paragraph {
-  font-family: "poppins", sans-serif;
-  font-weight: 400px;
-  font-size: 13px;
-  line-height: 26px;
-  color: black;
-  max-width: 800px;
-  margin-bottom: 12px;
-}
-.pr9-first-button {
-  background-color: #df6951;
-  padding: 10px 28px 7px 5px;
-  border-radius: 8px;
-  border: none;
-  font-family: "poppins", sans-serif;
-  color: #ffffff;
-}
-.money-one {
-  color: #df6951;
-  font-family: "poppins", sans-serif;
-  font-weight: 500px;
-  font-size: 20px;
-  line-height: 44px;
-}
-.money-one-extra {
-  text-decoration: line-through;
-  color: #7d7d7d;
-  font-family: "poppins" sans-serif;
-  font-size: 17px;
-  line-height: 20px;
+  gap: 50px;
 }
