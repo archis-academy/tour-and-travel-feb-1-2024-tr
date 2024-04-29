@@ -269,18 +269,7 @@ h6.bs-description-text {
   max-width: 1350px;
   margin: 100px auto;
   position: relative;
-}
-es-left-column{
-  background-color: #df6951;
-  border-radius: 10px;
-  padding: 21px 29px;
-  display: inline-block;
-  color: white;
-  font-weight: bold;
-  font-family: "Poppins", sans-serif;
-  letter-spacing: 1px;
-  margin-top: 35px;
-  gap: 10px;
+  padding: 0 20px;
 }
 .es-promotion{
 font-family: "Poppins",sans-serif;
@@ -333,4 +322,44 @@ letter-spacing: 1px;
   right: 0;
   z-index: -1;
   max-width:100%;
+}
+@media screen and (max-width:1200px){
+  .es-destinations{
+    justify-content: center;
+  }
+  .es-tittle{
+    font-size: 35px;
+    justify-content: center;
+    line-height: 51px;
+    padding: 0 30px;
+  }
+  .es-promotion{
+    padding: 0 30px;
+  }
+  .es-paragraph{
+    padding: 0 30px ;
+  }
+  .es-button{
+    padding: 0 30px;
+  }
+}
+@media  screen and (max-width:768px){
+  .es-destinations{
+    justify-content: center;
+  }
+  .es-tittle{
+    font-size: 25px;
+    justify-content: center;
+    line-height: 41px;
+    padding: 0 5px;
+  }
+  .es-promotion{
+    padding: 0 5px;
+  }
+  .es-paragraph{
+    padding: 0 5px ;
+  }
+  .es-button{
+    padding: 0 5px;
+  }
 }
