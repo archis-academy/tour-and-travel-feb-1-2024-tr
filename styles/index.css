@@ -265,6 +265,7 @@ h6.bs-description-text {
   }
 }
 /*Buse/PR-5 Favorite Resorts*/
+/*Tahir/PR-7 Europe-sightseeing tours*/
 .homepage-Europe-sightseeing-tours{
   max-width: 1350px;
   margin: 100px auto;
@@ -355,6 +356,7 @@ letter-spacing: 1px;
   }
   .es-promotion{
     padding: 0 5px;
+    font-size: 15px;
   }
   .es-paragraph{
     padding: 0 5px ;
@@ -363,3 +365,4 @@ letter-spacing: 1px;
     padding: 0 5px;
   }
 }
+/*Tahir/PR-7 Europe sightseeing tour finish*/
