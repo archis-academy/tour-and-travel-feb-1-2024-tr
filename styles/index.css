@@ -291,12 +291,37 @@ h6.bs-description-text {
 .main-contents-area {
   justify-content: center;
   display: flex;
-  margin-left: 50px;
+  flex-wrap: wrap;
+  margin: auto;
+  max-width: 1350px;
   gap: 50px;
+}
+.first-content-area {
+  max-width: 400px;
+}
+.second-content-area {
+  max-width: 400px;
+}
+.third-content-area {
+  max-width: 400px;
+}
+.image-section {
+  position: relative;
+  margin-bottom: 30px;
+  display: flex;
+}
+.country-view {
+  width: 100%;
+}
+.country-flag {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  transform: translateY(55%);
 }
 .day-area {
   display: flex;
-  gap: 90px;
+  gap: 25px;
   margin-bottom: 10px;
 }
 .calendar-area {
@@ -332,10 +357,12 @@ h6.bs-description-text {
 }
 .country-title {
   display: flex;
-  gap: 170px;
+  justify-content: space-between;
+  align-items: center;
 }
 .stars {
-  margin-top: 15px;
+  display: flex;
+  gap: 5px;
 }
 .country-name {
   font-family: "poppins", sans-serif;
