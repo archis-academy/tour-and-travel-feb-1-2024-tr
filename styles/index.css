@@ -5,6 +5,7 @@ body {
   .homepage-footer {
     background-color: white;
     padding: 50px 0;
+    position: relative;
   }
   
   .footer-container {
@@ -25,9 +26,7 @@ body {
     text-align: start;
   }
   
-  
   .logo-img {
-    max-width: 126.6px;
     color: #181E4B;
     text-align: left;
   }
@@ -118,12 +117,15 @@ body {
   }
   .footer-list-item{
     color: #181E4B;
-
-
   }
   .footer-list a:hover{
     text-decoration: underline;
     color: #181433;
+}
+.footer-image{
+  z-index: -1;  
+  position: absolute;
+  width: 200px;
 }
   @media screen and (max-width: 520px) {
     .footer-main-box {
@@ -145,8 +147,14 @@ body {
     .mail-content{
       display: flex;
       flex-direction: column;
+      gap: 20px;
+    }
+    .footer-text,
+    .footer-logo,
+    .logo-img{
+      text-align: center;
     }
     .footer-text{
-      text-align: center;
+      padding-right: 0px;
     }
   }
