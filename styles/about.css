@@ -1,16 +1,16 @@
 .trend-container-div{
-  justify-content:center;
-  display: flex;
+  margin-top: 30px;
 }
 .trend-container{
     max-width: 1350px;
+    justify-content: center;
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
     margin: 0 auto;
     padding: 0px 20px;
     position: relative;
-}
+  }
 .trend-text-head{
     display: flex;
     flex-direction: column;
@@ -21,13 +21,12 @@
   position: absolute;
   right: 0;
   z-index: -1;
-  max-width:340px ;
 }
 .shell-img{
   max-width: 100%;
 }
 .trend-big-image{
-  max-width: 556px;
+  margin-right: 117px
 }
 .trend-big-photo{
   width: 100%;
@@ -55,17 +54,21 @@
     font-style: normal;
     font-weight: 400;
 }
+@media(max-width:1313px){
+    .shell-img{
+      display: none;
+    }
+  
+}
 @media screen and (max-width: 1200px) {
     .shell-img {
-      position: absolute;
-      max-width: 100%;
+      display: none;
     }
     .h5-trend{
       font-size: 22px;
     }
     .trend-container {
       max-width: 100%;
-      justify-content: center;
       flex-wrap: wrap;
       margin: 0 auto;
       padding: 0px 20px;
@@ -75,8 +78,10 @@
     }
   }
   @media screen and (max-width: 625px) {
+    .shell-img {
+      display: none;
+    }
     .trend-container {
-      justify-content: center;
       flex-wrap: wrap;
       padding: 0px 20px;
     }
@@ -93,7 +98,6 @@
     }
     .trend-big-image {
       display: flex;
-      justify-content: center;
       padding: 0px 20px;
     }
 }
