@@ -3,13 +3,12 @@ body {
   }
   
   .homepage-footer {
-    background-color: white;
     padding: 50px 0;
     position: relative;
   }
   
   .footer-container {
-    max-width: 1200px;
+    max-width: 1350px;
     margin: 0 auto;
     padding: 0 20px;
   }
@@ -19,6 +18,9 @@ body {
     flex-wrap: wrap;
     justify-content: center;
   }
+.footer-main-content{
+  flex: 1;
+}
   
   .footer-content {
     flex: 1;
@@ -125,7 +127,8 @@ body {
 .footer-image{
   z-index: -1;  
   position: absolute;
-  width: 200px;
+  right: 0;
+  bottom: 0;
 }
   @media screen and (max-width: 520px) {
     .footer-main-box {
