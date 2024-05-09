@@ -591,63 +591,60 @@ h6.bs-description-text {
 }
 /*Tahir/PR-7 Europe sightseeing tour finish*/
 
-.Homepage {
+
+.homepage {
  display: flex;
  justify-content: center;
  position: relative;
  background-color: #f8f8f8;
-
+ padding: 75px;
 }
-.Testimonials-Container {
+.testimonials-container {
 }
-.firstdiv {
-}
-.one {
+.homepage-seashell-img {
   position: absolute;
-  top: 0;
+  top: -67px;
   left: 0;
 }
-.two {
+.homepage-hat-img {
   position: absolute;
   bottom: 0;
   left: 0;
 }
-.three {
+.homepage-testimonial-img {
   position: absolute;
   right: 0;
-  top: 0;
-  
+  top: -67px;
 }
-.first {
-}
-.firt-tittle {
+
+.homepage-promotion {
   color: #DF6951;
   font-family: Poppins;
-font-size: 18px;
-font-weight: 700;
-line-height: 27px;
-letter-spacing: 0.1em;
-text-align: center;
-
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0.1em;
+  text-align: center;
 }
-.second-title {
+.homepage-header {
   font-family: Volkhov;
-font-size: 50px;
-font-weight: 700;
-line-height: 71.04px;
-text-align: center;
-padding: 15px 0;
-
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 71.04px;
+  text-align: center;
+  padding: 15px 0;
+  
 }
-.first-second {
+.homepage-imgs {
   position: relative;
   display: flex;
   justify-content: center;
   padding: 50px;
   margin-top: 75px;
   background-color: white;
+  border-radius: 50px;
 }
-.box {
+.homepage-box {
   position: absolute;
   top: 0;
   left: 50px;
@@ -655,22 +652,21 @@ padding: 15px 0;
   padding: 50px;
 
 }
-.left-icon {
+.homepage-left-icon {
   position: absolute;
   left: 0;
   top: 50%;
   transform: translate(-50%, -50%);
 }
-.right-icon {
+.homepage-right-icon {
   position: absolute;
   right: 0;
   top: 50%;
   transform: translate(+50%, -50%);
 }
-.first-third {
-}
-.paragraph {
-  font-family: Poppins;
+
+.homepage-parag {
+font-family: Poppins;
 font-size: 12.22px;
 font-weight: 400;
 line-height: 24.45px;
@@ -678,8 +674,8 @@ letter-spacing: 0.05em;
 text-align: center;
 
 }
-.writer {
-  font-family: Poppins;
+.homepage-writer {
+font-family: Poppins;
 font-size: 12.22px;
 font-weight: 700;
 line-height: 24.45px;
