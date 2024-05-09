@@ -170,6 +170,41 @@
   }
 }
 
+/*Buse PR-2 Homepage Partners Start */
+.partners-section{
+  background-color: #F7F7F7;
+}
+
+.partners-box{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.partner{
+  max-width: 220px;
+}
+
+.animate-go-left{
+  animation-name: goLeft;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-duration: 60s;
+}
+
+@keyframes goLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/*Buse PR-2 Homepage Partners */
+
+
 /* Kübra PR-3 Best Services  */
 .best-services-container {
   display: flex;
