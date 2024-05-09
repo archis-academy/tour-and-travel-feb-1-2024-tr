@@ -1,9 +1,10 @@
 .trend-container-div{
   margin-top: 30px;
+  position: relative;
 }
 .trend-container{
     max-width: 1350px;
-    justify-content: center;
+    justify-content: space-between;
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
@@ -21,12 +22,10 @@
   position: absolute;
   right: 0;
   z-index: -1;
+  top: 25px;
 }
 .shell-img{
   max-width: 100%;
-}
-.trend-big-image{
-  margin-right: 117px
 }
 .trend-big-photo{
   width: 100%;
@@ -55,6 +54,9 @@
     font-weight: 400;
 }
 @media(max-width:1313px){
+    .trend-container{
+      justify-content: center;
+    }
     .shell-img{
       display: none;
     }
