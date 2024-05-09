@@ -272,6 +272,9 @@ h6.bs-description-text {
   flex-direction: column;
   align-items: center;
 }
+.trending-tour-container {
+  padding: 50px 20px;
+}
 .tt-little-title {
   font-family: "poppins", sans-serif;
   font-size: 18px;
@@ -321,7 +324,7 @@ h6.bs-description-text {
 }
 .day-area {
   display: flex;
-  gap: 25px;
+  gap: 10px;
   margin-bottom: 10px;
 }
 .calendar-area {
@@ -425,3 +428,4 @@ h6.bs-description-text {
   line-height: 20px;
   color: #ffffff;
 }
+/*Berhan Trending Tour Packages end*/
