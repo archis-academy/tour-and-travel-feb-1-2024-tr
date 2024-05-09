@@ -590,3 +590,167 @@ h6.bs-description-text {
   }
 }
 /*Tahir/PR-7 Europe sightseeing tour finish*/
+/*Berhan Trending Tour Packages start*/
+.trending-tour-title-area {
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.trending-tour-container {
+  padding: 50px 20px;
+}
+.tt-little-title {
+  font-family: "poppins", sans-serif;
+  font-size: 18px;
+  line-height: 27px;
+  color: #df6951;
+  font-weight: 700;
+}
+.tt-big-title {
+  font-family: "volkhov", serif;
+  line-height: 70px;
+  font-size: 50px;
+  font-weight: 700;
+  max-width: 500px;
+  color: #181e4b;
+  text-align: center;
+}
+.main-contents-area {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  max-width: 1350px;
+  gap: 50px;
+}
+.first-content-area {
+  max-width: 400px;
+}
+.second-content-area {
+  max-width: 400px;
+}
+.third-content-area {
+  max-width: 400px;
+}
+.image-section {
+  position: relative;
+  margin-bottom: 30px;
+  display: flex;
+}
+.country-view {
+  width: 100%;
+}
+.country-flag {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  transform: translateY(55%);
+}
+.day-area {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.calendar-area {
+  display: flex;
+}
+.people {
+  margin-top: 2px;
+  display: flex;
+}
+.user-icon {
+  height: 20px;
+}
+.people-going {
+  margin-left: 8px;
+}
+.calendar-icon {
+  margin-right: 6px;
+  height: 25px;
+}
+.day {
+  font-size: 17px;
+  font-weight: 400;
+  font-family: "poppins", sans-serif;
+  color: #7d7d7d;
+  line-height: 25px;
+}
+.people-going {
+  font-family: "poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  color: #7d7d7d;
+}
+.country-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.stars {
+  display: flex;
+  gap: 5px;
+}
+.country-name {
+  font-family: "poppins", sans-serif;
+  font-weight: 700;
+  font-size: 29px;
+  line-height: 44px;
+  color: #2f2f2f;
+}
+.location-area {
+  display: flex;
+  gap: 5px;
+}
+.location-title {
+  margin-top: 2px;
+}
+.locaiton-name {
+  font-family: "poppins", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 25px;
+  color: #7d7d7d;
+}
+.money-box {
+  display: flex;
+  gap: 25px;
+}
+
+.money1 {
+  font-size: 29px;
+  line-height: 44px;
+  font-weight: 500;
+  font-family: "poppins", sans-serif;
+  color: #df6951;
+}
+.money2 {
+  font-family: "poppins", sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 33px;
+  color: #7d7d7d;
+  text-decoration: line-through;
+  margin-top: 7px;
+}
+.information {
+  font-family: "poppins", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #000;
+  margin-bottom: 30px;
+}
+.button-area {
+  background-color: #df6951;
+  padding: 10px 27px 8px 10px;
+  border-radius: 8px;
+  border: none;
+  font-family: "poppins", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+}
+/*Berhan Trending Tour Packages end*/
