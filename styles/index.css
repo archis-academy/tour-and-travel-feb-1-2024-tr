@@ -591,33 +591,33 @@ h6.bs-description-text {
 }
 /*Tahir/PR-7 Europe sightseeing tour finish*/
 
-
-.homepage {
- display: flex;
- justify-content: center;
- position: relative;
- background-color: #f8f8f8;
- padding: 75px;
+.homepage-testimonials-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  background-color: #f8f8f8;
+  z-index: 0;
 }
-.testimonials-container {
-}
-.homepage-seashell-img {
+.testimonials-seashell-img {
   position: absolute;
-  top: -67px;
+  top: -12%;
   left: 0;
+  z-index: -1;
 }
-.homepage-hat-img {
+.testimonials-hat-img {
   position: absolute;
   bottom: 0;
   left: 0;
 }
-.homepage-testimonial-img {
+.testimonial-img {
   position: absolute;
   right: 0;
-  top: -67px;
+  top: -12%;
+  z-index: -1;
 }
-
-.homepage-promotion {
+.homepage-testimonials-tittle {
+}
+.testimonials-promotion {
   color: #DF6951;
   font-family: Poppins;
   font-size: 18px;
@@ -625,61 +625,85 @@ h6.bs-description-text {
   line-height: 27px;
   letter-spacing: 0.1em;
   text-align: center;
+  padding: 25px;
 }
-.homepage-header {
+.testimonials-header {
   font-family: Volkhov;
-  font-size: 50px;
+  front-size: clamp(35px , 5vw , 50px);
   font-weight: 700;
-  line-height: 71.04px;
+  line-height: clamp(45px , 5vw , 71px);
   text-align: center;
-  padding: 15px 0;
+  padding: 15px;
   
 }
-.homepage-imgs {
+.homepage-testimonials-imgs {
   position: relative;
   display: flex;
   justify-content: center;
   padding: 50px;
   margin-top: 75px;
   background-color: white;
-  border-radius: 50px;
+  border-radius: 25px;
+  
 }
-.homepage-box {
+.testimonials-box-img {
   position: absolute;
+  transform: translate(+50%, -50%);
   top: 0;
   left: 50px;
-  transform: translate(+50%, -50%);
   padding: 50px;
 
 }
-.homepage-left-icon {
+.testimonials-left-icon {
   position: absolute;
   left: 0;
   top: 50%;
   transform: translate(-50%, -50%);
 }
-.homepage-right-icon {
+.testimonials-right-icon {
   position: absolute;
   right: 0;
   top: 50%;
   transform: translate(+50%, -50%);
 }
 
-.homepage-parag {
+.testimonials-parag {
 font-family: Poppins;
-font-size: 12.22px;
+front-size: clamp(8px , 4vw , 12px);
 font-weight: 400;
-line-height: 24.45px;
+line-height: clamp(16px , 4vw , 24px);
 letter-spacing: 0.05em;
 text-align: center;
-
+position: relative;
 }
-.homepage-writer {
+.testimonial-box {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 50px;
+  top: -5px;
+  left: -3px;
+}
+.testimonial-writer {
 font-family: Poppins;
 font-size: 12.22px;
 font-weight: 700;
 line-height: 24.45px;
 letter-spacing: 0.05em;
 text-align: center;
-
 }
+@media screen (max-width: 500px){
+  .homepage-left-icon,
+  .homepage-right-icon{
+display:none;
+ }
+ 
+  .homepage{
+    padding: 75px 20px;
+  }
+  .homepage-seashell-img,
+  .homepage-testimonial-img{
+    display: none;
+  }
+  }
