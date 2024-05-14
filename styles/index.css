@@ -693,7 +693,7 @@ line-height: 24.45px;
 letter-spacing: 0.05em;
 text-align: center;
 }
-@media screen (max-width: 500px){
+@media  (max-width: 500px){
   .homepage-left-icon,
   .homepage-right-icon{
 display:none;
