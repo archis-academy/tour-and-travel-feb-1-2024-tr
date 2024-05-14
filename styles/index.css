@@ -615,8 +615,7 @@ h6.bs-description-text {
   top: -12%;
   z-index: -1;
 }
-.homepage-testimonials-tittle {
-}
+
 .testimonials-promotion {
   color: #DF6951;
   font-family: Poppins;
@@ -629,7 +628,7 @@ h6.bs-description-text {
 }
 .testimonials-header {
   font-family: Volkhov;
-  front-size: clamp(35px , 5vw , 50px);
+  font-size: clamp(35px , 5vw , 50px);
   font-weight: 700;
   line-height: clamp(45px , 5vw , 71px);
   text-align: center;
@@ -648,9 +647,9 @@ h6.bs-description-text {
 }
 .testimonials-box-img {
   position: absolute;
-  transform: translate(+50%, -50%);
+  transform: translate(-50%, -50%);
   top: 0;
-  left: 50px;
+  left: 50%;
   padding: 50px;
 
 }
@@ -669,7 +668,7 @@ h6.bs-description-text {
 
 .testimonials-parag {
 font-family: Poppins;
-front-size: clamp(8px , 4vw , 12px);
+font-size: clamp(8px , 4vw , 12px);
 font-weight: 400;
 line-height: clamp(16px , 4vw , 24px);
 letter-spacing: 0.05em;
@@ -694,16 +693,16 @@ letter-spacing: 0.05em;
 text-align: center;
 }
 @media  (max-width: 500px){
-  .homepage-left-icon,
-  .homepage-right-icon{
+  .testimonials-left-icon,
+  .testimonials-right-icon{
 display:none;
  }
  
-  .homepage{
+ .homepage-testimonials-container{
     padding: 75px 20px;
   }
-  .homepage-seashell-img,
-  .homepage-testimonial-img{
+  .testimonials-seashell-img,
+  .testimonial-img{
     display: none;
   }
   }
