@@ -760,6 +760,8 @@ h6.bs-description-text {
   position: relative;
   background-color: #f8f8f8;
   z-index: 0;
+  padding: 75px 20px;
+  margin: 75px 0;
 }
 .testimonials-seashell-img {
   position: absolute;
@@ -858,9 +860,6 @@ h6.bs-description-text {
     display: none;
   }
 
-  .homepage-testimonials-container {
-    padding: 75px 20px;
-  }
   .testimonials-seashell-img,
   .testimonial-img {
     display: none;
