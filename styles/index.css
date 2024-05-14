@@ -754,3 +754,114 @@ h6.bs-description-text {
   color: #ffffff;
 }
 /*Berhan Trending Tour Packages end*/
+.homepage-testimonials-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  background-color: #f8f8f8;
+  z-index: 0;
+  padding: 75px 20px;
+  margin: 75px 0;
+}
+.testimonials-seashell-img {
+  position: absolute;
+  top: -12%;
+  left: 0;
+  z-index: -1;
+}
+.testimonials-hat-img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.testimonial-img {
+  position: absolute;
+  right: 0;
+  top: -12%;
+  z-index: -1;
+}
+
+.testimonials-promotion {
+  color: #df6951;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  padding: 25px;
+}
+.testimonials-header {
+  font-family: Volkhov;
+  font-size: clamp(35px, 5vw, 50px);
+  font-weight: 700;
+  line-height: clamp(45px, 5vw, 71px);
+  text-align: center;
+  padding: 15px;
+}
+.homepage-testimonials-imgs {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  margin-top: 75px;
+  background-color: white;
+  border-radius: 25px;
+}
+.testimonials-box-img {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 0;
+  left: 50%;
+  padding: 50px;
+}
+.testimonials-left-icon {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.testimonials-right-icon {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(+50%, -50%);
+}
+
+.testimonials-parag {
+  font-family: Poppins;
+  font-size: clamp(8px, 4vw, 12px);
+  font-weight: 400;
+  line-height: clamp(16px, 4vw, 24px);
+  letter-spacing: 0.05em;
+  text-align: center;
+  position: relative;
+}
+.testimonial-box {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 50px;
+  top: -5px;
+  left: -3px;
+}
+.testimonial-writer {
+  font-family: Poppins;
+  font-size: 12.22px;
+  font-weight: 700;
+  line-height: 24.45px;
+  letter-spacing: 0.05em;
+  text-align: center;
+}
+@media (max-width: 500px) {
+  .testimonials-left-icon,
+  .testimonials-right-icon {
+    display: none;
+  }
+
+  .testimonials-seashell-img,
+  .testimonial-img {
+    display: none;
+  }
+}
