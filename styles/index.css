@@ -171,36 +171,62 @@
 }
 
 /*Buse PR-2 Homepage Partners Start */
-.partners-section{
-  background-color: #F7F7F7;
-}
 
-.partners-box{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.partner{
-  max-width: 220px;
-}
-
-.animate-go-left{
-  animation-name: goLeft;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  animation-duration: 60s;
-}
-
-@keyframes goLeft {
-  0% {
+@keyframes slide {
+  from {
     transform: translateX(0);
   }
-  100% {
+  to {
     transform: translateX(-100%);
   }
 }
+
+.partners-section{
+  position: relative;
+  overflow: hidden;
+  white-space: nowrap;
+  padding: 60px 0;
+  background-color: #F7F7F7;
+
+}
+
+.partners-section:before,
+.partners-section:after {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+}
+
+.partners-section::before {
+  left: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+
+}
+
+.partners-section::after {
+  right: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+}
+
+.partners-section:hover .partners-box{
+  animation-play-state: paused;
+}
+
+.partners-box{
+  display: inline-block;
+  animation: 50s slide infinite linear;
+}
+
+.partner{
+  height: 50px;
+  margin: 0 50px;
+  filter: grayscale(100%);
+
+}
+
 
 /*Buse PR-2 Homepage Partners */
 
