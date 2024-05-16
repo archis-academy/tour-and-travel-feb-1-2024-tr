@@ -1,103 +1,90 @@
-/* Emir/ PR-12 About Promotion START */
+/* tahir/ PR-12 About Promotion START */
 .promotion-container {
-
-    max-width: 2378px;
+    justify-content: center;
     display: flex;
-    flex-direction: row;
+    margin-top: 100px;
+    padding: 0px 20px;
+    position: relative;
+    
 }
 
-.promotion-text {
-    margin-left: 200px;
-    padding-top: 180px;
-    max-width: 639px;
+.promotion-text-head {
+    max-width: 1350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 32px;
+    position: relative;
 
 }
 
-.promotion-text h5 {
+.promotion-h5-tittle {
     max-width: 126px;
     color: #DF6951;
     font-family: "Poppins", sans-serif;
-    font-size: 18px;
+    font-size: 25px;
     font-weight: 700;
     line-height: 27px;
     letter-spacing: 2px;
 }
 
-.promotion-text h1 {
-    max-width: 639px;
+.promotion-h1-provide {
+    width: 639px;
     color: #181E4B;
     font-family: "Volkhov", serif;
-    font-size: 50px;
+    font-size: 55px;
     font-weight: 700;
     line-height: 71.04px;
 
 }
 
-.promotion-text p {
-    margin-top: 20px;
+.promotion-paragraph {
+    max-width: 570px;
+    margin-top: 16px;
     color: black;
     font-family: "Poppins", sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 500;
     line-height: 26px;
 }
 
-.promotion-text button {
+.promotion-View-Packages {
     background-color: #DF6951;
     width: 176.5px;
     height: 56.42px;
     color: white;
-    font-size: 16px;
+    font-size: 18px;
     margin-top: 20px;
     border: 1px solid white;
     border-radius: 10px;
     padding: 10px;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
-
-
 }
-
 .promotion-text button:hover {
     background-color: white;
     color: #DF6951;
     border-color: #DF6951;
     cursor: pointer;
 }
-
-
-.promotion-image img {
-    padding-top: 18px;
-    width: 900px;
+.promotion-image-container{
+    width: 820px;
+    display: flex;
+    justify-content: center;
 
 }
+.images-about-backround{
+    max-width:100%;
+    z-index: -1;
+    filter: grayscale(100%);
 
-@media (max-width:1320px) {
-    .promotion-image img {
-        width: 750px;
-        padding-top: 210px;
-    }
 }
+.images-about-promotion {
+    max-width: 100%;
+    clip-path: circle();
+    position: absolute;
 
-@media (min-width:1920px) {
-    .promotion-image {
-        padding-left: 300px;
-    }
 }
+.border-flame{}
 
-@media (max-width:800px) {
-    .promotion-text {
-        margin-left: 50px;
-    }
-
-    .promotion-container {
-        flex-direction: column;
-    }
-
-    .promotion-image img {
-        padding-top: 20px;
-        width: 560px;
-    }
-}
-
-/* Emir/ PR-12 About Promotion END */
+/* tahir/ PR-12 About Promotion END */
