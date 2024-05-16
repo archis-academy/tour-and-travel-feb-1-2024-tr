@@ -181,13 +181,12 @@
   }
 }
 
-.partners-section{
+.partners-section {
   position: relative;
   overflow: hidden;
   white-space: nowrap;
   padding: 60px 0;
-  background-color: #F7F7F7;
-
+  background-color: #f7f7f7;
 }
 
 .partners-section:before,
@@ -203,7 +202,6 @@
 .partners-section::before {
   left: 0;
   background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
-
 }
 
 .partners-section::after {
@@ -211,25 +209,22 @@
   background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
 }
 
-.partners-section:hover .partners-box{
+.partners-section:hover .partners-box {
   animation-play-state: paused;
 }
 
-.partners-box{
+.partners-box {
   display: inline-block;
-  animation: 50s slide infinite linear;
+  animation: 15s slide infinite linear;
 }
 
-.partner{
+.partner {
   height: 50px;
-  margin: 0 50px;
+  margin: 0 65px;
   filter: grayscale(100%);
-
 }
-
 
 /*Buse PR-2 Homepage Partners */
-
 
 /* Kübra PR-3 Best Services  */
 .best-services-container {
