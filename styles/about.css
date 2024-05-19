@@ -80,5 +80,47 @@
 .about-promotion-backround{
     grid-area: 1 / 1;
 }
-
+@media screen and (max-width:1245px){
+    .promotion-h5-tittle{
+        font-size: 15px;
+    }
+    .promotion-h1-provide{
+        font-size: 45px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .promotion-container {
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+}
+.promotion-image-container{
+    margin-top: 50px;
+}
+.about-context-img{
+    max-width: 100%;
+}
+.about-promotion-backround{
+    max-width: 100%;
+    padding: 0px 20px;
+}
+.about-promotion-ellipse{
+    max-width: 100%;
+    padding: 0px 20px;
+}
+@media screen and (max-width: 615px){
+    .promotion-h1-provide{
+        font-size: 40px;
+    }
+    .about-context-img{
+        padding: 0px 20px;
+        position: relative;
+    }
+    .about-promotion-ellipse{
+        display: none;
+    }
+    .about-promotion-backround{
+        display: none;
+    }
+}
 /* tahir/ PR-12 About Promotion END */
