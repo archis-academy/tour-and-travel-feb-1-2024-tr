@@ -1,4 +1,4 @@
-.pr13-container {
+.APH-container {
   position: relative;
   height: 100vh;
   background-image: url(../images/about/about-header-img.png);
@@ -169,21 +169,21 @@ a {
   color: white;
   cursor: pointer;
 }
-.pr13-title-area {
+.APH-title-area {
     text-align: center;
     flex-wrap: wrap;
     margin-top: 200px;
 }
-.pr13-little-title {
+.APH-little-title {
     font-family: "poppins", sans-serif;
     line-height: 27px;
-    font-size: 18px;
+    font-size: clamp(8px , 4vw, 18px);
     font-weight: 700;
     color: #ffefec;
 }
-.pr13-big-title {
+.APH-big-title {
     font-family: "yesteryear", serif;
-    font-size: 158px;
+    font-size: clamp(120px , 4vw , 158px);
     line-height: 224px;
     font-weight: 400;
     color: #ffffff;
