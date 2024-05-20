@@ -1,126 +1,124 @@
 /* tahir/ PR-12 About Promotion START */
 .promotion-container {
-    margin-top: 30px;
-    display: flex;
-    justify-content: center;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
 }
-
 
 .promotion-text-head {
-    max-width: 1350px;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0px 20px;
-    position: relative;
-    flex-direction: column;
-    justify-content: center;
+  max-width: 1350px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px 20px;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
 }
 .promotion-h5-tittle {
-    color: #DF6951;
-    font-family: "Poppins", sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 27px;
+  color: #df6951;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
 }
 
 .promotion-h1-provide {
-
-    color: #181E4B;
-    font-family: "Volkhov", serif;
-    font-size: 50px;
-    font-weight: 700;
-    line-height: 71.04px;
-
+  color: #181e4b;
+  font-family: "Volkhov", serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 71.04px;
 }
 
 .promotion-paragraph {
-    max-width: 570px;
-    margin-top: 8px;
-    color: black;
-    font-family: "Poppins", sans-serif;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 26px;
-    font-size: 16px;
+  max-width: 570px;
+  margin-top: 8px;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+  font-size: 16px;
 }
 
 .promotion-View-Packages {
-    background-color: #DF6951;
-    width: 176.5px;
-    height: 56.42px;
-    color: white;
-    font-size: 18px;
-    margin-top: 20px;
-    border: 1px solid white;
-    border-radius: 10px;
-    padding: 10px;
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
+  background-color: #df6951;
+  width: 176.5px;
+  height: 56.42px;
+  color: white;
+  font-size: 18px;
+  margin-top: 20px;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
 }
 .promotion-text button:hover {
-    background-color: white;
-    color: #DF6951;
-    border-color: #DF6951;
-    cursor: pointer;
+  background-color: white;
+  color: #df6951;
+  border-color: #df6951;
+  cursor: pointer;
 }
-.promotion-image-container{
-    display: grid;
-    place-items: center;
-    max-width: 100%;
-    position: relative;
-
+.promotion-image-container {
+  display: grid;
+  place-items: center;
+  max-width: 100%;
+  position: relative;
 }
-.about-context-img{
-    position: absolute;
-    grid-area: 1 / 1;
+.about-context-img {
+  position: absolute;
+  grid-area: 1 / 1;
 }
-.about-promotion-ellipse{
-    grid-area: 1 / 1;
+.about-promotion-ellipse {
+  grid-area: 1 / 1;
 }
-.about-promotion-backround{
-    grid-area: 1 / 1;
+.about-promotion-backround {
+  grid-area: 1 / 1;
 }
-@media screen and (max-width:1245px){
-    .promotion-h5-tittle{
-        font-size: 15px;
-    }
-    .promotion-h1-provide{
-        font-size: 45px;
-    }
+@media screen and (max-width: 1245px) {
+  .promotion-h5-tittle {
+    font-size: 15px;
+  }
+  .promotion-h1-provide {
+    font-size: 45px;
+    line-height: 60px;
+  }
 }
 @media screen and (max-width: 1200px) {
-    .promotion-container {
-      justify-content: center;
-      flex-wrap: wrap;
-    }
+  .promotion-container {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
 }
-.promotion-image-container{
-    margin-top: 50px;
+.promotion-image-container {
+  margin-top: 50px;
 }
-.about-context-img{
-    max-width: 100%;
+.about-context-img {
+  max-width: 100%;
 }
-.about-promotion-backround{
-    max-width: 100%;
+.about-promotion-backround {
+  max-width: 100%;
+  padding: 0px 20px;
+}
+.about-promotion-ellipse {
+  max-width: 100%;
+  padding: 0px 20px;
+}
+@media screen and (max-width: 615px) {
+  .promotion-h1-provide {
+    font-size: 35px;
+    line-height: 45px;
+  }
+  .about-context-img {
     padding: 0px 20px;
-}
-.about-promotion-ellipse{
-    max-width: 100%;
-    padding: 0px 20px;
-}
-@media screen and (max-width: 615px){
-    .promotion-h1-provide{
-        font-size: 40px;
-    }
-    .about-context-img{
-        padding: 0px 20px;
-        position: relative;
-    }
-    .about-promotion-ellipse{
-        display: none;
-    }
-    .about-promotion-backround{
-        display: none;
-    }
+    position: relative;
+  }
+  .about-promotion-ellipse {
+    display: none;
+  }
+  .about-promotion-backround {
+    display: none;
+  }
 }
 /* tahir/ PR-12 About Promotion END */
