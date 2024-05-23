@@ -6,36 +6,114 @@
     <title>Tour and Travel About</title>
     <link rel="stylesheet" href="styles/about.css" />
     <link rel="stylesheet" href="styles/shared.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yesteryear&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-  <div class="trend-container-div">
-    <div class="trend-container">
-    <div class="trend-big-image">
-      <img class="trend-big-photo" src="images/about/about-trend-img.png">
-    </div>
-      <div class="trend-text-head">
-        <h5 class="h5-trend">TREND</h5>
-        <h2 class="h2-our-popular">Our Popular Tour Plans</h2>
-        <P class="trend-paragraf">Et labore harum non nobis ipsum eum molestias mollitia et corporis praesentium a laudantium. Et labore harum non nobis ipsum eum molestias mollitia et corporis praesentium a laudantium.</P>
-      <div class="statistics">
-        <div class="statistics-1">
-          <img src="images/about/about-statistic-img01.png">
-          <p>VACATIONS</p>
-        </div>
-        <div class="statistics-2">
-          <img src="images/about/about-statistic-img02.png">
-          <p>HONEYMOON</p>
-        </div>
-        <div>
-            <img src="images/about/about-statistic-img03.png" alt="">
-            <p>MUSICAL EVENTS</p>          
-          </div>  
-        </div>
+    <!-- Berhan/PR-13 About Page Hero start -->
+    <div class="APH-container">
+      <header class="homepage-header">
+        <nav class="homepage-top-nav-bar">
+          <img class="logo" src="images/logo.png" alt="Company Logo" />
+          <div class="hamburger-menu">
+            <img src="images/hamburger-icon.png" />
+            <div class="hamburger-dropdown-menu">
+              <a href="index.html">Home</a>
+              <a href="#">About</a>
+              <a id="services-menu" href="#" style="color: #df6951"
+                >Services
+              </a>
+              <div
+                id="services-content"
+                class="services-content-class"
+                style="display: none"
+              >
+                <a href="#">Honeymoon Packages</a>
+                <a href="#">Tours Packages</a>
+                <a href="#">Musical Events</a>
+                <a href="#">Build Package</a>
+              </div>
+              <a href="#">Upcoming Packages</a>
+              <button class="dropdown-sign-in-button">Get in Touch</button>
+            </div>
+          </div>
+          <div class="homepage-nav-bar">
+            <ul class="homepage-nav-elements">
+              <li class="homepage-nav-element"><a href="#">Home</a></li>
+              <li class="homepage-nav-element"><a href="#">About</a></li>
+              <li class="homepage-nav-element">
+                <a href="#">Services</a>
+                <div class="arrown-down"></div>
+                <div class="dropdown-menu">
+                  <a href="#">Honeymoon Packages</a>
+                  <a href="#">Tours Packages</a>
+                  <a href="#">Musical Events</a>
+                  <a href="#">Build Package</a>
+                </div>
+              </li>
+              <li class="homepage-nav-element">
+                <a href="#">Upcoming Packages</a>
+              </li>
+            </ul>
+          </div>
+          <button class="sign-in-button">Get in Touch</button>
+        </nav>
+      </header>
+      <div class="APH-title-area">
+        <h5 class="APH-little-title">READ</h5>
+        <h2 class="APH-big-title">About Us</h2>
       </div>
     </div>
+    <!-- Berhan/PR-13 About Page Hero end -->
+
+    <div class="trend-container-div">
+      <div class="trend-container">
+        <div class="trend-big-image">
+          <img class="trend-big-photo" src="images/about/about-trend-img.png" />
+        </div>
+        <div class="trend-text-head">
+          <h5 class="h5-trend">TREND</h5>
+          <h2 class="h2-our-popular">Our Popular Tour Plans</h2>
+          <p class="trend-paragraf">
+            Et labore harum non nobis ipsum eum molestias mollitia et corporis
+            praesentium a laudantium. Et labore harum non nobis ipsum eum
+            molestias mollitia et corporis praesentium a laudantium.
+          </p>
+          <div class="statistics">
+            <div class="statistics-1">
+              <img src="images/about/about-statistic-img01.png" />
+              <p>VACATIONS</p>
+            </div>
+            <div class="statistics-2">
+              <img src="images/about/about-statistic-img02.png" />
+              <p>HONEYMOON</p>
+            </div>
+            <div>
+              <img src="images/about/about-statistic-img03.png" alt="" />
+              <p>MUSICAL EVENTS</p>
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="shell-img-div">
-        <img class="shell-img" src="images/about/about-trend-shell-img.png" alt="">
+        <img
+          class="shell-img"
+          src="images/about/about-trend-shell-img.png"
+          alt=""
+        />
       </div>
-  </div>
+    </div>
+    <script src="app.js"></script>
   </body>
 </html>

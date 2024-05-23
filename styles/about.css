@@ -1,107 +1,135 @@
-.trend-container-div{
+.APH-container {
+  position: relative;
+  height: 100vh;
+  background-image: url(../images/about/about-header-img.png);
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0 20px;
+}
+
+.APH-title-area {
+  text-align: center;
+  flex-wrap: wrap;
+  margin-top: 200px;
+}
+.APH-little-title {
+  font-family: "poppins", sans-serif;
+  line-height: 27px;
+  font-size: clamp(8px, 4vw, 18px);
+  font-weight: 700;
+  color: #ffefec;
+}
+.APH-big-title {
+  font-family: "yesteryear", serif;
+  font-size: clamp(120px, 4vw, 158px);
+  line-height: 224px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.trend-container-div {
   margin-top: 30px;
   position: relative;
 }
-.trend-container{
-    max-width: 1350px;
-    justify-content: space-between;
-    display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
-    margin: 0 auto;
-    padding: 0px 20px;
-    position: relative;
-  }
-.trend-text-head{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-top: 32px;
+.trend-container {
+  max-width: 1350px;
+  justify-content: space-between;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 0px 20px;
+  position: relative;
 }
-.shell-img-div{
+.trend-text-head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 32px;
+}
+.shell-img-div {
   position: absolute;
   right: 0;
   z-index: -1;
   top: 25px;
 }
-.shell-img{
+.shell-img {
   max-width: 100%;
 }
-.trend-big-photo{
+.trend-big-photo {
   width: 100%;
 }
-.h5-trend{
-    color: #df6951;
-    font-size: 18px;
-    font-weight: 700;
-    margin-bottom: 10px;
-
+.h5-trend {
+  color: #df6951;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
 }
-.h2-our-popular{
-    color: #181e4b;
-    font-family: "Volkhov",serif;
-    font-size: 50px;
-    font-weight: 700;
-    margin-bottom: 20px;
-    text-transform: capitalize;
+.h2-our-popular {
+  color: #181e4b;
+  font-family: "Volkhov", serif;
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-transform: capitalize;
 }
-.trend-paragraf{
-    color: black;
-    width: 570px;
-    font-family: "Poppins", sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
+.trend-paragraf {
+  color: black;
+  width: 570px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
 }
-@media(max-width:1313px){
-    .trend-container{
-      justify-content: center;
-    }
-    .shell-img{
-      display: none;
-    }
-  
+@media (max-width: 1313px) {
+  .trend-container {
+    justify-content: center;
+  }
+  .shell-img {
+    display: none;
+  }
 }
 @media screen and (max-width: 1200px) {
-    .shell-img {
-      display: none;
-    }
-    .h5-trend{
-      font-size: 22px;
-    }
-    .trend-container {
-      max-width: 100%;
-      flex-wrap: wrap;
-      margin: 0 auto;
-      padding: 0px 20px;
-    }
-    .h2-our-popular{
-      font-size: 45px;
-    }
+  .shell-img {
+    display: none;
   }
-  @media screen and (max-width: 625px) {
-    .shell-img {
-      display: none;
-    }
-    .trend-container {
-      flex-wrap: wrap;
-      padding: 0px 20px;
-    }
-    .h5-trend{
-      font-size: 20px;
-    }
-    .h2-our-popular{
-      font-size: 40px;
-    }
-    .trend-paragraf {
-      color: black;
-      width: 100%;
-      font-size: 16px;
-    }
-    .trend-big-image {
-      display: flex;
-      padding: 0px 20px;
-    }
+  .h5-trend {
+    font-size: 22px;
+  }
+  .trend-container {
+    max-width: 100%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 0px 20px;
+  }
+  .h2-our-popular {
+    font-size: 45px;
+  }
+}
+@media screen and (max-width: 625px) {
+  .shell-img {
+    display: none;
+  }
+  .trend-container {
+    flex-wrap: wrap;
+    padding: 0px 20px;
+  }
+  .h5-trend {
+    font-size: 20px;
+  }
+  .h2-our-popular {
+    font-size: 40px;
+  }
+  .trend-paragraf {
+    color: black;
+    width: 100%;
+    font-size: 16px;
+  }
+  .trend-big-image {
+    display: flex;
+    padding: 0px 20px;
+  }
 }
 .statistics {
   display: flex;
