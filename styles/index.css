@@ -170,6 +170,62 @@
   }
 }
 
+/*Buse PR-2 Homepage Partners Start */
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.partners-section {
+  position: relative;
+  overflow: hidden;
+  white-space: nowrap;
+  padding: 60px 0;
+  background-color: #f7f7f7;
+}
+
+.partners-section:before,
+.partners-section:after {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+}
+
+.partners-section::before {
+  left: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+}
+
+.partners-section::after {
+  right: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+}
+
+.partners-section:hover .partners-box {
+  animation-play-state: paused;
+}
+
+.partners-box {
+  display: inline-block;
+  animation: 15s slide infinite linear;
+}
+
+.partner {
+  height: 50px;
+  margin: 0 65px;
+  filter: grayscale(100%);
+}
+
+/*Buse PR-2 Homepage Partners */
+
 /* Kübra PR-3 Best Services  */
 .best-services-container {
   display: flex;
@@ -590,3 +646,278 @@ h6.bs-description-text {
   }
 }
 /*Tahir/PR-7 Europe sightseeing tour finish*/
+/*Berhan Trending Tour Packages start*/
+.trending-tour-title-area {
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.trending-tour-container {
+  padding: 50px 20px;
+}
+.tt-little-title {
+  font-family: "poppins", sans-serif;
+  font-size: 18px;
+  line-height: 27px;
+  color: #df6951;
+  font-weight: 700;
+}
+.tt-big-title {
+  font-family: "volkhov", serif;
+  line-height: 70px;
+  font-size: 50px;
+  font-weight: 700;
+  max-width: 500px;
+  color: #181e4b;
+  text-align: center;
+}
+.main-contents-area {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  max-width: 1350px;
+  gap: 50px;
+}
+.first-content-area {
+  max-width: 400px;
+}
+.second-content-area {
+  max-width: 400px;
+}
+.third-content-area {
+  max-width: 400px;
+}
+.image-section {
+  position: relative;
+  margin-bottom: 30px;
+  display: flex;
+}
+.country-view {
+  width: 100%;
+}
+.country-flag {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  transform: translateY(55%);
+}
+.day-area {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.calendar-area {
+  display: flex;
+}
+.people {
+  margin-top: 2px;
+  display: flex;
+}
+.user-icon {
+  height: 20px;
+}
+.people-going {
+  margin-left: 8px;
+}
+.calendar-icon {
+  margin-right: 6px;
+  height: 25px;
+}
+.day {
+  font-size: 17px;
+  font-weight: 400;
+  font-family: "poppins", sans-serif;
+  color: #7d7d7d;
+  line-height: 25px;
+}
+.people-going {
+  font-family: "poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  color: #7d7d7d;
+}
+.country-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.stars {
+  display: flex;
+  gap: 5px;
+}
+.country-name {
+  font-family: "poppins", sans-serif;
+  font-weight: 700;
+  font-size: 29px;
+  line-height: 44px;
+  color: #2f2f2f;
+}
+.location-area {
+  display: flex;
+  gap: 5px;
+}
+.location-title {
+  margin-top: 2px;
+}
+.locaiton-name {
+  font-family: "poppins", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 25px;
+  color: #7d7d7d;
+}
+.money-box {
+  display: flex;
+  gap: 25px;
+}
+
+.money1 {
+  font-size: 29px;
+  line-height: 44px;
+  font-weight: 500;
+  font-family: "poppins", sans-serif;
+  color: #df6951;
+}
+.money2 {
+  font-family: "poppins", sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 33px;
+  color: #7d7d7d;
+  text-decoration: line-through;
+  margin-top: 7px;
+}
+.information {
+  font-family: "poppins", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #000;
+  margin-bottom: 30px;
+}
+.button-area {
+  background-color: #df6951;
+  padding: 10px 27px 8px 10px;
+  border-radius: 8px;
+  border: none;
+  font-family: "poppins", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+}
+/*Berhan Trending Tour Packages end*/
+.homepage-testimonials-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  background-color: #f8f8f8;
+  z-index: 0;
+  padding: 75px 20px;
+  margin: 75px 0;
+}
+.testimonials-seashell-img {
+  position: absolute;
+  top: -12%;
+  left: 0;
+  z-index: -1;
+}
+.testimonials-hat-img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.testimonial-img {
+  position: absolute;
+  right: 0;
+  top: -12%;
+  z-index: -1;
+}
+
+.testimonials-promotion {
+  color: #df6951;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  padding: 25px;
+}
+.testimonials-header {
+  font-family: Volkhov;
+  font-size: clamp(35px, 5vw, 50px);
+  font-weight: 700;
+  line-height: clamp(45px, 5vw, 71px);
+  text-align: center;
+  padding: 15px;
+}
+.homepage-testimonials-imgs {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  margin-top: 75px;
+  background-color: white;
+  border-radius: 25px;
+}
+.testimonials-box-img {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 0;
+  left: 50%;
+  padding: 50px;
+}
+.testimonials-left-icon {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.testimonials-right-icon {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(+50%, -50%);
+}
+
+.testimonials-parag {
+  font-family: Poppins;
+  font-size: clamp(8px, 4vw, 12px);
+  font-weight: 400;
+  line-height: clamp(16px, 4vw, 24px);
+  letter-spacing: 0.05em;
+  text-align: center;
+  position: relative;
+}
+.testimonial-box {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 50px;
+  top: -5px;
+  left: -3px;
+}
+.testimonial-writer {
+  font-family: Poppins;
+  font-size: 12.22px;
+  font-weight: 700;
+  line-height: 24.45px;
+  letter-spacing: 0.05em;
+  text-align: center;
+}
+@media (max-width: 500px) {
+  .testimonials-left-icon,
+  .testimonials-right-icon {
+    display: none;
+  }
+
+  .testimonials-seashell-img,
+  .testimonial-img {
+    display: none;
+  }
+}
