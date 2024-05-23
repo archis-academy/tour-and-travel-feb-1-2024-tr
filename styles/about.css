@@ -170,23 +170,23 @@ a {
   cursor: pointer;
 }
 .APH-title-area {
-    text-align: center;
-    flex-wrap: wrap;
-    margin-top: 200px;
+  text-align: center;
+  flex-wrap: wrap;
+  margin-top: 200px;
 }
 .APH-little-title {
-    font-family: "poppins", sans-serif;
-    line-height: 27px;
-    font-size: clamp(8px , 4vw, 18px);
-    font-weight: 700;
-    color: #ffefec;
+  font-family: "poppins", sans-serif;
+  line-height: 27px;
+  font-size: clamp(8px, 4vw, 18px);
+  font-weight: 700;
+  color: #ffefec;
 }
 .APH-big-title {
-    font-family: "yesteryear", serif;
-    font-size: clamp(120px , 4vw , 158px);
-    line-height: 224px;
-    font-weight: 400;
-    color: #ffffff;
+  font-family: "yesteryear", serif;
+  font-size: clamp(120px, 4vw, 158px);
+  line-height: 224px;
+  font-weight: 400;
+  color: #ffffff;
 }
 
 @media (max-width: 800px) {
@@ -203,4 +203,4 @@ a {
   .sign-in-button {
     display: none;
   }
-  
+}
