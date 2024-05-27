@@ -28,6 +28,45 @@
   color: #ffffff;
 }
 
+.Wanderlust-video-banner {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  position:relative
+ 
+}
+.Video-banner {
+  top: 1586px;
+  gap: 0px;
+  opacity: 0px;
+ 
+
+  
+}
+.Wanderlust-banner {
+   font-family: Yesteryear;
+   font-size: 157.43px;
+   font-weight: 400;
+   line-height: 223.68px;
+   text-align: left;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   color: white;
+  
+}
+@media(max-width: 500px) {
+  .Wanderlust-banner{
+    display: none;
+    height: aouto;
+    width: %100;
+  }
+
+}
+
+
+
+
 /* tahir/ PR-12 About Promotion START */
 .promotion-container {
   margin-top: 30px;

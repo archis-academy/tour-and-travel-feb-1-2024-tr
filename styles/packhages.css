@@ -1,0 +1,60 @@
+.dashed-vertical-line{
+    .dashed-vertical-line {
+        border-left: 2px dashed red; 
+        height: 100px;                
+        margin: 20px;                 
+      }
+      
+}
+.trip-tour-header{
+    padding-left: 100px;
+    margin: 10px 50px 10px 10px;
+
+}
+.h1{
+font-family: Volkhov;
+font-size: 31.62px;
+font-weight: 700;
+line-height: 40.79px;
+text-align: left;
+
+}
+
+
+.h3 {font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    line-height:21px;
+    
+}
+.p{font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    line-height: 24px;
+}
+.li {width: 175px;
+    height: 21px;
+    top: 1120px;
+    left: 427px;
+    gap: 0px;
+    opacity: 0px;
+    line-height: 50px;
+}
+.dikey-cizgi {
+    width: 1px;
+    height: 100px;
+    color: #DF6951;
+    width: 306px;
+    height: 0px;
+    top: 1977px;
+    left: 368px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    
+
+}
