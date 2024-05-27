@@ -596,7 +596,7 @@ h6.bs-description-text {
   justify-content: center;
   margin-bottom: 15px;
 }
-.he-first-area {
+.he-information-area {
   background-image: url(../images/homepage-explore1.png);
   background-size: cover;
   background-position: left;
@@ -604,15 +604,17 @@ h6.bs-description-text {
   width: 100%;
   height: 350px;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.he-second-area {
+.left-image {
   background-image: url(../images/homepage-explore2.png);
   background-size: cover;
-  background-position: left;
+  background-position: right;
   background-repeat: no-repeat;
   width: 100%;
   height: 350px;
-  text-align: center;
 }
 .he-first-title {
   font-family: "Poppins", sans-serif;
@@ -630,7 +632,7 @@ h6.bs-description-text {
 }
 .he-button {
   border-radius: 10px;
-  border: 1px;
+  border: 1px solid white;
   padding: 15px 30px;
   font-family: "Poppins", sans-serif;
   color: #ffffff;
@@ -639,6 +641,6 @@ h6.bs-description-text {
   font-size: 17px;
   line-height: 25px;
 }
-.he-information-area {
-  margin-top: 120px;
+.he-title-area {
+  display: block;
 }
