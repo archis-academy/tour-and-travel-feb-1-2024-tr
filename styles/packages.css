@@ -1,0 +1,65 @@
+
+    .square-box {
+        width: 47px; /* Genişlik */
+        height: 47px; /* Yükseklik */
+        background-color: red; /* Arka plan rengi kırmızı */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+        font-weight: bold;
+        color: white; /* Yazı rengi beyaz */
+        border-radius: 9px;
+        box-sizing: border-box;
+    }
+    .tour-plan {
+    }
+    .title {
+        font-family: Volkhov;
+        font-size: 31.62px;
+        font-weight: 700;
+        line-height: 40.79px;
+        text-align: left;
+
+
+    }
+    .tour-title{
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 30px;
+        text-align: left;
+
+
+    }
+    .tour-parg{
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+
+    }
+    .Departure {
+    }
+    .Visiting-Zurich {
+    }
+    .Rest {
+    }
+    .Historical-tour {
+    }
+    .Return {
+    }
+    .li{
+        width: 175px;
+        height: 21px;
+        top: 1120px;
+        left: 427px;
+        gap: 0px;
+        opacity: 0px;
+
+    }
+    .dashed-line {
+        border-left: 2px dashed red; /* Sol kenarda kırmızı kesintili çizgi */
+        height: 70px; /* Yükseklik: Sayfanın tamamı */
+    }
