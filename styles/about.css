@@ -7,6 +7,16 @@
     padding: 150px 20px;
     text-align: center;
 }
+.explore-text{
+    font-family: Poppins;
+    color:#DF6951;
+        
+}
+.international-text{
+    font-family: Volkhov;
+    color:#181E4B;
+
+}
 
 .explore-packages-text{
     padding: 50px 0;
