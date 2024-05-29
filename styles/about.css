@@ -7,6 +7,7 @@
     padding: 150px 20px;
     text-align: center;
 }
+
 .explore-packages-text{
     padding: 50px 0;
 }
@@ -24,7 +25,7 @@
 }
 .city-and-price{
   position: absolute;
-  bottom: 30px;
+  bottom: 20px;
   padding: 0 30px;
   justify-content: space-between;
   display: flex;
@@ -33,6 +34,9 @@
   color: #ffffff;
   font-family: 'poppins', sans-serif;
 }
+
+.explore-img{
+    width: 100%;}
 .city3{
     grid-row: auto / span 2;
 }
