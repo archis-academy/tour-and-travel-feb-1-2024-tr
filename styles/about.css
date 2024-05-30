@@ -268,3 +268,72 @@
   font-size: 18px;
   font-weight: 700;
 }
+.about-explore-packages-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 150px 20px;
+  text-align: center;
+}
+.explore-text {
+  font-family: Poppins;
+  color: #df6951;
+}
+.international-text {
+  font-family: Volkhov;
+  color: #181e4b;
+}
+
+.explore-packages-text {
+  padding: 50px 0;
+}
+.container-elements {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  max-width: 1600px;
+  margin: auto;
+  gap: 36px;
+  justify-content: center;
+}
+.column-elements {
+  position: relative;
+  text-align: center;
+}
+.city-and-price {
+  position: absolute;
+  bottom: 20px;
+  padding: 0 30px;
+  justify-content: space-between;
+  display: flex;
+  width: 100%;
+  font-size: 30px;
+  color: #ffffff;
+  font-family: "poppins", sans-serif;
+}
+
+.explore-img {
+  width: 100%;
+}
+.city3 {
+  grid-row: auto / span 2;
+}
+
+@media (max-width: 1200px) {
+  .container-elements {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 992px) {
+  .container-elements {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .container-elements {
+    grid-template-columns: 1fr;
+  }
+}
