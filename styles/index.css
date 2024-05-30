@@ -659,3 +659,14 @@ h6.bs-description-text {
   background-color: rgba(0, 0, 0, 0.2);
   z-index: -1;
 }
+@media (max-width: 900px) {
+  .he-container {
+    flex-direction: column;
+  }
+  .he-information-area {
+    flex: auto;
+  }
+  .he-line {
+    right: 0;
+  }
+}
